@@ -12,7 +12,7 @@
 ### About me
 - 🎓 **MSE in Data Science, University of Pennsylvania** (expected May 2028)
 - 🐻 **BA in Data Science, UC Berkeley** (2025), Applied Mathematics and Modeling emphasis
-- 💼 Former **Data Science Intern at Oakland Natives Give Back**: cleaned and joined 79,000+ student records and built absenteeism risk tiers for school leadership
+- 💼 Former **Data Science Intern at Oakland Natives Give Back**: cleaned attendance, GPA and discipline records for 18,000+ students, built chronic-absenteeism risk tiers, and turned staff interviews into recommendations for school leadership
 - 🔭 Looking for **Data Scientist, Data Analyst and BI** roles: a Summer 2027 internship, then full time. Remote, Bay Area or Sacramento
 - 🌱 I like turning messy real-world data into clear answers: SQL pipelines, statistical models and honest evaluation
 
