@@ -18,12 +18,9 @@
 
 ### Tools I use
 
-**Languages and data**<br>
+**Languages**<br>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white">
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-<img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black">
-<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
 <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
 <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
@@ -38,9 +35,14 @@
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square">
 <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square">
 
-**Big data and tooling**<br>
+**Databases and big data**<br>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+<img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black">
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
 <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white">
 <img src="https://img.shields.io/badge/AWS%20EMR-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white">
+
+**Developer tools**<br>
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white">
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 
@@ -55,10 +57,6 @@ New projects and course write-ups go up through December:
 - 🎮 **Pokémon GO IV Rank Checker**: a JavaScript web app that ranks all 4,096 IV combinations across leagues
 - 📊 Write-ups on SQL and data engineering, big data with Spark, deep learning, optimization, statistics and machine learning
 
-### GitHub stats
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=HuyKDao&show_icons=true&count_private=true&hide_border=true&theme=transparent" alt="GitHub stats">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HuyKDao&layout=compact&hide_border=true&theme=transparent" alt="Top languages">
-</p>
+---
 
 <p align="center"><i>Thanks for stopping by. The best way to reach me is <a href="https://www.linkedin.com/in/huy-dao-250736295">LinkedIn</a>.</i></p>
