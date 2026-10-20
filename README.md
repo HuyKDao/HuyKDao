@@ -53,7 +53,7 @@ Can today's health, economic and demographic indicators predict a country's life
 
 ### Coming soon
 New projects and course write-ups go up through December:
-- 🌫️ **Air Quality and Economic Mobility in California**: causal inference with propensity scores (Berkeley group project)
+- 🌫️ **Air Quality and Economic Mobility in California**: causal inference with propensity scores
 - 🎮 **Pokémon GO IV Rank Checker**: a JavaScript web app that ranks all 4,096 IV combinations across leagues
 - 📊 Write-ups on SQL and data engineering, big data with Spark, deep learning, optimization, statistics and machine learning
 
