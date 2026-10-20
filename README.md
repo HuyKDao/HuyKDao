@@ -48,7 +48,7 @@
 
 ### Featured project
 
-**[Forecasting Life Expectancy 10 Years Ahead](https://github.com/HuyKDao/life-expectancy-forecasting)** · Penn CIS 5450 group project<br>
+**[Forecasting Life Expectancy 10 Years Ahead](https://github.com/HuyKDao/life-expectancy-forecasting)** <br>
 Can today's health, economic and demographic indicators predict a country's life expectancy a decade out? Using World Bank data on 263 countries, our team compared eight models; the best random forest reached **R² 0.92** and cut error **27%** against the baseline. I owned data cleaning and exploration, including time-aware interpolation and a reusable cleaning module the team built on.
 
 ### Coming soon
