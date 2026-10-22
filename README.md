@@ -7,6 +7,23 @@
   <img src="https://img.shields.io/badge/Based%20in-San%20Jose%2C%20CA-555?style=for-the-badge&logo=googlemaps&logoColor=white" alt="San Jose, CA">
 </p>
 
+<div align="center">
+
+<h3><code>huy@github ~ $ whoami</code></h3>
+<table>
+<tr>
+<td valign="top"><img src="./assets/ascii-portrait.svg" width="410" alt="ASCII portrait of Huy Dao" /></td>
+<td valign="top"><img src="./assets/info-card.svg" width="450" alt="Profile summary: Penn MSE Data Science, UC Berkeley BA Data Science, seeking Summer 2027 DS/DA internships" /></td>
+</tr>
+</table>
+
+<br>
+
+<h3><code>huy@github ~ $ ./contributions.sh</code></h3>
+<img src="./assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap for the last year, refreshed daily" />
+
+</div>
+
 ---
 
 ### About me

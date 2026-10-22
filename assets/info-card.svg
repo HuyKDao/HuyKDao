@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 478" width="490" height="478" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">
+<style>
+.l{opacity:0;animation:in .4s ease-out forwards}
+@keyframes in{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+</style>
+<rect width="490" height="478" rx="10" fill="#0d1117" stroke="#30363d"/>
+<circle cx="20" cy="18" r="5" fill="#ff5f56"/><circle cx="36" cy="18" r="5" fill="#ffbd2e"/><circle cx="52" cy="18" r="5" fill="#27c93f"/>
+<text x="245.0" y="22" text-anchor="middle" fill="#8b949e" font-size="11">huy@github: ~/neofetch</text>
+<g class="l" style="animation-delay:0.40s"><text x="24" y="62" font-weight="bold"><tspan fill="#58a6ff">huy</tspan><tspan fill="#c9d1d9">@</tspan><tspan fill="#58a6ff">github</tspan></text></g>
+<g class="l" style="animation-delay:0.52s"><text x="24" y="80" fill="#30363d">----------</text></g>
+<g class="l" style="animation-delay:0.64s"><text x="24" y="104"><tspan fill="#58a6ff" font-weight="bold">Now:</tspan><tspan x="124" fill="#c9d1d9">MSE Data Science @ UPenn (May 2028)</tspan></text></g>
+<g class="l" style="animation-delay:0.76s"><text x="24" y="124"><tspan fill="#58a6ff" font-weight="bold">Prev:</tspan><tspan x="124" fill="#c9d1d9">BA Data Science @ UC Berkeley (2025)</tspan></text></g>
+<g class="l" style="animation-delay:0.88s"><text x="24" y="144"><tspan fill="#58a6ff" font-weight="bold">Focus:</tspan><tspan x="124" fill="#c9d1d9">Applied math and modeling</tspan></text></g>
+<g class="l" style="animation-delay:1.00s"><text x="24" y="164"><tspan fill="#58a6ff" font-weight="bold">Intern:</tspan><tspan x="124" fill="#c9d1d9">Data Science @ Oakland Natives Give Back</tspan></text></g>
+<g class="l" style="animation-delay:1.12s"><text x="24" y="184"><tspan fill="#58a6ff" font-weight="bold">Seeking:</tspan><tspan x="124" fill="#c9d1d9">Summer 2027 DS / DA / BI internship</tspan></text></g>
+<g class="l" style="animation-delay:1.24s"><text x="24" y="204"><tspan fill="#58a6ff" font-weight="bold">Location:</tspan><tspan x="124" fill="#c9d1d9">San Jose, CA</tspan></text></g>
+<g class="l" style="animation-delay:1.36s"><text x="24" y="234"><tspan fill="#58a6ff" font-weight="bold">Languages:</tspan><tspan x="124" fill="#c9d1d9">Python, SQL, Java, MATLAB, JavaScript</tspan></text></g>
+<g class="l" style="animation-delay:1.48s"><text x="24" y="254"><tspan fill="#58a6ff" font-weight="bold">ML:</tspan><tspan x="124" fill="#c9d1d9">pandas, scikit-learn, PyTorch, PyMC</tspan></text></g>
+<g class="l" style="animation-delay:1.60s"><text x="24" y="274"><tspan fill="#58a6ff" font-weight="bold">Data:</tspan><tspan x="124" fill="#c9d1d9">PostgreSQL, DuckDB, MongoDB, Spark, AWS EMR</tspan></text></g>
+<g class="l" style="animation-delay:1.72s"><text x="24" y="304"><tspan fill="#58a6ff" font-weight="bold">Featured:</tspan><tspan x="124" fill="#c9d1d9">Life expectancy forecast, R² 0.92</tspan></text></g>
+<g class="l" style="animation-delay:1.84s"><text x="24" y="324"><tspan fill="#58a6ff" font-weight="bold"></tspan><tspan x="124" fill="#c9d1d9">random forest cut error 27% vs baseline</tspan></text></g>
+<g class="l" style="animation-delay:1.96s"><text x="24" y="344"><tspan fill="#58a6ff" font-weight="bold">Building:</tspan><tspan x="124" fill="#c9d1d9">NYC congestion pricing impact</tspan></text></g>
+<g class="l" style="animation-delay:2.08s"><text x="24" y="364"><tspan fill="#58a6ff" font-weight="bold"></tspan><tspan x="124" fill="#c9d1d9">Pokémon GO IV rank checker</tspan></text></g>
+<g class="l" style="animation-delay:2.20s"><text x="24" y="384"><tspan fill="#58a6ff" font-weight="bold"></tspan><tspan x="124" fill="#c9d1d9">Air quality and economic mobility in CA</tspan></text></g>
+<g class="l" style="animation-delay:2.32s"><text x="24" y="414"><tspan fill="#58a6ff" font-weight="bold">Contact:</tspan><tspan x="124" fill="#c9d1d9">linkedin.com/in/huy-dao-250736295</tspan></text></g>
+<g class="l" style="animation-delay:2.44s"><rect x="24" y="442" width="24" height="14" rx="2" fill="#ff5f56"/><rect x="52" y="442" width="24" height="14" rx="2" fill="#ffbd2e"/><rect x="80" y="442" width="24" height="14" rx="2" fill="#27c93f"/><rect x="108" y="442" width="24" height="14" rx="2" fill="#58a6ff"/><rect x="136" y="442" width="24" height="14" rx="2" fill="#bc8cff"/><rect x="164" y="442" width="24" height="14" rx="2" fill="#39c5cf"/><rect x="192" y="442" width="24" height="14" rx="2" fill="#c9d1d9"/><rect x="220" y="442" width="24" height="14" rx="2" fill="#8b949e"/></g>
+</svg>
