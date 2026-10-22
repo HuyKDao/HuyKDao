@@ -17,9 +17,13 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scripts/heatmap.py
+      - run: python scripts/make_info_card.py
+        continue-on-error: true # a GitHub API hiccup keeps yesterday's card, heatmap still ships
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/contrib-heatmap.svg
+          git add assets/contrib-heatmap.svg assets/info-card.svg
           git diff --cached --quiet || (git commit -m "Refresh contribution graph [skip ci]" && git push)

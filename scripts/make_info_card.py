@@ -1,11 +1,26 @@
 """Render the neofetch-style info card: assets/info-card.svg.
 
-Edit LINES, then run: python scripts/make_info_card.py
+Featured and Building come from your public repos, so the daily workflow keeps
+them current. Featured is the repo with the "featured" topic. Building is the
+three most recently pushed other projects. Edit LINES for everything else, then
+run: python scripts/make_info_card.py
 """
+import base64
+import json
+import os
+import re
+import urllib.error
+import urllib.request
 from html import escape
 from pathlib import Path
 
+USER = "HuyKDao"
 OUT = Path(__file__).resolve().parent.parent / "assets" / "info-card.svg"
+SKIP = re.compile(r"coursework|labs|-plan$", re.I)  # class work and plans are not portfolio projects
+FALLBACK_FEATURED = "life-expectancy-forecasting"  # used until a repo has the "featured" topic
+# Second Featured line for repos with a result worth stating; otherwise the repo description is used.
+HIGHLIGHTS = {"life-expectancy-forecasting": "random forest, R² 0.92, error cut 27%"}
+MAX_CHARS = 42  # widest value that fits the card
 W, H = 490, 478  # height matches the portrait so the two columns line up
 KEY = "#58a6ff"
 TEXT = "#c9d1d9"
@@ -21,18 +36,62 @@ LINES = [
     ("ML", "pandas, scikit-learn, PyTorch, PyMC"),
     ("Data", "PostgreSQL, DuckDB, MongoDB, Spark, AWS EMR"),
     None,
-    ("Featured", "Life expectancy forecast, R² 0.92"),
-    ("", "random forest cut error 27% vs baseline"),
-    ("Building", "NYC congestion pricing impact"),
-    ("", "Pokémon GO IV rank checker"),
-    ("", "Air quality and economic mobility in CA"),
+    "PROJECTS",
     None,
     ("Contact", "linkedin.com/in/huy-dao-250736295"),
 ]
 COLORS = ["#ff5f56", "#ffbd2e", "#27c93f", "#58a6ff", "#bc8cff", "#39c5cf", "#c9d1d9", "#8b949e"]
 
 
-def render():
+def api(path):
+    headers = {"User-Agent": "Mozilla/5.0", "Accept": "application/vnd.github+json"}
+    if os.environ.get("GITHUB_TOKEN"):  # optional: raises the rate limit in Actions
+        headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
+    req = urllib.request.Request(f"https://api.github.com/{path}", headers=headers)
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+
+def clip(text):
+    """Cut at a word boundary so long titles still fit the card."""
+    if len(text) <= MAX_CHARS:
+        return text
+    return text[: MAX_CHARS - 1].rsplit(" ", 1)[0].rstrip(" ,:;-") + "…"
+
+
+def title(repo):
+    """README heading, else description, else repo name."""
+    try:
+        readme = base64.b64decode(api(f"repos/{USER}/{repo['name']}/readme")["content"]).decode("utf-8")
+        m = re.search(r"^#\s+(.+?)\s*$", readme, re.M)
+        if m:
+            return re.sub(r"[*_`\[\]]|<[^>]+>", "", m.group(1)).strip()
+    except urllib.error.HTTPError:  # repo has no README
+        pass
+    return repo["description"] or repo["name"]
+
+
+def projects():
+    repos = [
+        r for r in api(f"users/{USER}/repos?sort=pushed&per_page=100")
+        if not r["fork"] and not r["archived"] and r["name"] != USER and not SKIP.search(r["name"])
+    ]
+    if not repos:
+        raise SystemExit("No public project repos found.")
+    featured = (
+        next((r for r in repos if "featured" in r.get("topics", [])), None)
+        or next((r for r in repos if r["name"] == FALLBACK_FEATURED), repos[0])
+    )
+    lines = [("Featured", clip(title(featured)))]
+    detail = HIGHLIGHTS.get(featured["name"]) or featured["description"]
+    if detail:
+        lines.append(("", clip(detail)))
+    building = [r for r in repos if r is not featured][:3]
+    lines += [("Building" if i == 0 else "", clip(title(r))) for i, r in enumerate(building)]
+    return lines
+
+
+def render(project_lines):
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" '
         'font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">',
@@ -57,7 +116,7 @@ def render():
     y += 18
     line(f'<text x="24" y="{y}" fill="#30363d">{"-" * 10}</text>')
     y += 24
-    for item in LINES:
+    for item in (x for i in LINES for x in (project_lines if i == "PROJECTS" else [i])):
         if item is None:
             y += 10
             continue
@@ -75,6 +134,10 @@ def render():
 
 
 if __name__ == "__main__":
+    assert clip("Did NYC Congestion Pricing Speed Up Manhattan Trips?") == "Did NYC Congestion Pricing Speed Up…"
+    assert clip("short") == "short"
+    lines = projects()
+    print("\n".join(f"{k:>9} {v}" for k, v in lines))
     OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(render(), encoding="utf-8")
+    OUT.write_text(render(lines), encoding="utf-8")
     print(f"wrote {OUT}")
