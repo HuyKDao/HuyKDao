@@ -1,10 +1,10 @@
 """Rewrite the README's Today-on-GitHub section from my public activity.
 
-The old Featured project block never changed, so this replaces it: it pulls
-the day's public events (Pacific time, since that's where I am) from the
-GitHub API and rewrites whatever sits between the TODAY markers. If today is
-quiet so far, it falls back to the most recent active day so the section never
-goes stale. Run: python scripts/today.py
+The old Featured project block never changed, so this replaces it: the daily
+workflow pulls that day's public events (Pacific time, since that's where I
+am) from the GitHub API and rewrites whatever sits between the TODAY markers.
+A quiet day gets a placeholder line instead of yesterday's news. Run:
+python scripts/today.py
 """
 import datetime as dt
 import json
@@ -141,20 +141,15 @@ def summarize(events):
     return [bullet(key[0], parts) for key, (_, parts) in ranked[:MAX_BULLETS]]
 
 
-def block(events):
-    """The full markdown section: today's activity, or the last active day."""
-    days = {}
-    for e in events:
-        days.setdefault(when(e).astimezone(HOME).date(), []).append(e)
-    today = dt.datetime.now(HOME).date()
-    day = today if today in days else max(days) if days else None
-    shown = day or today
-    body = summarize(days[day]) if day else []
-    body = body or ["🌱 Nothing public yet — new commits are on the way."]
-    label = "Today" if shown == today else "Last active"
-    lines = [f"### {label} on GitHub · {shown:%a, %b %d}", ""]
+def block(events, now=None):
+    """The full markdown section: what I did today (Pacific), or a quiet line."""
+    now = now or dt.datetime.now(HOME)
+    today = now.date()
+    todays = [e for e in events if when(e).astimezone(HOME).date() == today]
+    body = summarize(todays) or ["🌱 Nothing public yet today — new commits are on the way."]
+    lines = [f"### Today on GitHub · {today:%a, %b %d}", ""]
     lines += [f"- {b}" for b in body]
-    lines += ["", "<sub>Updated automatically from my public activity every few hours.</sub>"]
+    lines += ["", "<sub>Auto-refreshed every 24 hours from my public GitHub activity.</sub>"]
     return "\n".join(lines)
 
 
@@ -180,6 +175,14 @@ def _selfcheck():
     assert len(bullets) == 2 and bullets[0].startswith("🚀")  # push group is newest (20:00)
     assert bullets[0].startswith("🚀 Pushed **4 commits**") and "latest" in bullets[0]
     assert bullets[1].startswith("🔀")
+    now = dt.datetime(2026, 10, 24, 21, 0, tzinfo=dt.timezone(dt.timedelta(hours=-7)))  # 9pm PDT
+    old_day = {"type": "PushEvent", "created_at": "2026-10-23T18:00:00Z", "repo": {"name": "HuyKDao/x"},
+               "payload": {"size": 1, "commits": [{"message": "old"}]}}
+    quiet = block([old_day], now=now)  # yesterday's push must not leak into today
+    assert "Today on GitHub · Sat, Oct 24" in quiet and "Nothing public yet today" in quiet
+    today_push = dict(old_day, created_at="2026-10-24T18:00:00Z")
+    busy = block([old_day, today_push], now=now)
+    assert "Oct 23" not in busy and "Pushed **1 commit**" in busy
     old = f"intro\n\n{START}\nstale\n{END}\n\noutro"
     assert splice(old, "fresh") == f"intro\n\n{START}\nfresh\n{END}\n\noutro"
 
