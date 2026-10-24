@@ -63,10 +63,13 @@
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white">
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 
-### Featured project
+<!-- TODAY:START -->
+### Last active on GitHub · Fri, Oct 23
 
-**[Forecasting Life Expectancy 10 Years Ahead](https://github.com/HuyKDao/life-expectancy-forecasting)** <br>
-Can today's health, economic and demographic indicators predict a country's life expectancy a decade out? Using World Bank data on 263 countries, our team compared eight models; the best random forest reached **R² 0.92** and cut error **27%** against the baseline. I owned data cleaning and exploration, including time-aware interpolation and a reusable cleaning module the team built on.
+- 🚀 Pushed **1 commit** to [pokemon-go-iv-rank-checker](https://github.com/HuyKDao/pokemon-go-iv-rank-checker)
+
+<sub>Updated automatically from my public activity every few hours.</sub>
+<!-- TODAY:END -->
 
 ### Coming soon
 New projects and course write-ups go up through December:
