@@ -1,399 +1,404 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 232" width="860" height="232" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 290" width="860" height="290" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
 <style>
-.c{transform-box:fill-box;transform-origin:center;opacity:0;animation:in .45s ease-out forwards}
-@keyframes in{from{opacity:0;transform:translateY(-8px) scale(.4)}to{opacity:1;transform:none}}
+.b{transform-box:fill-box;transform-origin:50% 100%;transform:scaleY(0);animation:rise .7s cubic-bezier(.3,1.35,.5,1) forwards}
+@keyframes rise{to{transform:scaleY(1)}}
+.f,.l{opacity:0;animation:fade .5s ease-out forwards}
+@keyframes fade{to{opacity:1}}
+@media (prefers-reduced-motion:reduce){.b,.f,.l{animation:none;transform:none;opacity:1}}
 .t{fill:#8b949e;font-size:11px}
 </style>
-<rect width="860" height="232" rx="10" fill="#0d1117" stroke="#30363d"/>
+<rect width="860" height="290" rx="10" fill="#0d1117" stroke="#30363d"/>
 <circle cx="20" cy="18" r="5" fill="#ff5f56"/><circle cx="36" cy="18" r="5" fill="#ffbd2e"/><circle cx="52" cy="18" r="5" fill="#27c93f"/>
 <text x="430.0" y="22" text-anchor="middle" class="t">huykdao@github: ~/contributions</text>
-<text x="12" y="89" class="t">Mon</text>
-<text x="12" y="119" class="t">Wed</text>
-<text x="12" y="149" class="t">Fri</text>
-<text x="59" y="56" class="t">Nov</text>
-<text x="134" y="56" class="t">Dec</text>
-<text x="194" y="56" class="t">Jan</text>
-<text x="254" y="56" class="t">Feb</text>
-<text x="314" y="56" class="t">Mar</text>
-<text x="389" y="56" class="t">Apr</text>
-<text x="449" y="56" class="t">May</text>
-<text x="524" y="56" class="t">Jun</text>
-<text x="584" y="56" class="t">Jul</text>
-<text x="644" y="56" class="t">Aug</text>
-<text x="719" y="56" class="t">Sep</text>
-<text x="779" y="56" class="t">Oct</text>
-<rect class="c" style="animation-delay:0.000s" x="44" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 26, 2025</title></rect>
-<rect class="c" style="animation-delay:0.018s" x="44" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 27, 2025</title></rect>
-<rect class="c" style="animation-delay:0.036s" x="44" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 28, 2025</title></rect>
-<rect class="c" style="animation-delay:0.054s" x="44" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 29, 2025</title></rect>
-<rect class="c" style="animation-delay:0.072s" x="44" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 30, 2025</title></rect>
-<rect class="c" style="animation-delay:0.090s" x="44" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 31, 2025</title></rect>
-<rect class="c" style="animation-delay:0.108s" x="44" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 01, 2025</title></rect>
-<rect class="c" style="animation-delay:0.018s" x="59" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 02, 2025</title></rect>
-<rect class="c" style="animation-delay:0.036s" x="59" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 03, 2025</title></rect>
-<rect class="c" style="animation-delay:0.054s" x="59" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 04, 2025</title></rect>
-<rect class="c" style="animation-delay:0.072s" x="59" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 05, 2025</title></rect>
-<rect class="c" style="animation-delay:0.090s" x="59" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 06, 2025</title></rect>
-<rect class="c" style="animation-delay:0.108s" x="59" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 07, 2025</title></rect>
-<rect class="c" style="animation-delay:0.126s" x="59" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 08, 2025</title></rect>
-<rect class="c" style="animation-delay:0.036s" x="74" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 09, 2025</title></rect>
-<rect class="c" style="animation-delay:0.054s" x="74" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 10, 2025</title></rect>
-<rect class="c" style="animation-delay:0.072s" x="74" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 11, 2025</title></rect>
-<rect class="c" style="animation-delay:0.090s" x="74" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 12, 2025</title></rect>
-<rect class="c" style="animation-delay:0.108s" x="74" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 13, 2025</title></rect>
-<rect class="c" style="animation-delay:0.126s" x="74" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 14, 2025</title></rect>
-<rect class="c" style="animation-delay:0.144s" x="74" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 15, 2025</title></rect>
-<rect class="c" style="animation-delay:0.054s" x="89" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 16, 2025</title></rect>
-<rect class="c" style="animation-delay:0.072s" x="89" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 17, 2025</title></rect>
-<rect class="c" style="animation-delay:0.090s" x="89" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 18, 2025</title></rect>
-<rect class="c" style="animation-delay:0.108s" x="89" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 19, 2025</title></rect>
-<rect class="c" style="animation-delay:0.126s" x="89" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 20, 2025</title></rect>
-<rect class="c" style="animation-delay:0.144s" x="89" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 21, 2025</title></rect>
-<rect class="c" style="animation-delay:0.162s" x="89" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 22, 2025</title></rect>
-<rect class="c" style="animation-delay:0.072s" x="104" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 23, 2025</title></rect>
-<rect class="c" style="animation-delay:0.090s" x="104" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 24, 2025</title></rect>
-<rect class="c" style="animation-delay:0.108s" x="104" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 25, 2025</title></rect>
-<rect class="c" style="animation-delay:0.126s" x="104" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 26, 2025</title></rect>
-<rect class="c" style="animation-delay:0.144s" x="104" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 27, 2025</title></rect>
-<rect class="c" style="animation-delay:0.162s" x="104" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 28, 2025</title></rect>
-<rect class="c" style="animation-delay:0.180s" x="104" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 29, 2025</title></rect>
-<rect class="c" style="animation-delay:0.090s" x="119" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Nov 30, 2025</title></rect>
-<rect class="c" style="animation-delay:0.108s" x="119" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 01, 2025</title></rect>
-<rect class="c" style="animation-delay:0.126s" x="119" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 02, 2025</title></rect>
-<rect class="c" style="animation-delay:0.144s" x="119" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 03, 2025</title></rect>
-<rect class="c" style="animation-delay:0.162s" x="119" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 04, 2025</title></rect>
-<rect class="c" style="animation-delay:0.180s" x="119" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 05, 2025</title></rect>
-<rect class="c" style="animation-delay:0.198s" x="119" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 06, 2025</title></rect>
-<rect class="c" style="animation-delay:0.108s" x="134" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 07, 2025</title></rect>
-<rect class="c" style="animation-delay:0.126s" x="134" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 08, 2025</title></rect>
-<rect class="c" style="animation-delay:0.144s" x="134" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 09, 2025</title></rect>
-<rect class="c" style="animation-delay:0.162s" x="134" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 10, 2025</title></rect>
-<rect class="c" style="animation-delay:0.180s" x="134" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 11, 2025</title></rect>
-<rect class="c" style="animation-delay:0.198s" x="134" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 12, 2025</title></rect>
-<rect class="c" style="animation-delay:0.216s" x="134" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 13, 2025</title></rect>
-<rect class="c" style="animation-delay:0.126s" x="149" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 14, 2025</title></rect>
-<rect class="c" style="animation-delay:0.144s" x="149" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 15, 2025</title></rect>
-<rect class="c" style="animation-delay:0.162s" x="149" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 16, 2025</title></rect>
-<rect class="c" style="animation-delay:0.180s" x="149" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 17, 2025</title></rect>
-<rect class="c" style="animation-delay:0.198s" x="149" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 18, 2025</title></rect>
-<rect class="c" style="animation-delay:0.216s" x="149" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 19, 2025</title></rect>
-<rect class="c" style="animation-delay:0.234s" x="149" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 20, 2025</title></rect>
-<rect class="c" style="animation-delay:0.144s" x="164" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 21, 2025</title></rect>
-<rect class="c" style="animation-delay:0.162s" x="164" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 22, 2025</title></rect>
-<rect class="c" style="animation-delay:0.180s" x="164" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 23, 2025</title></rect>
-<rect class="c" style="animation-delay:0.198s" x="164" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 24, 2025</title></rect>
-<rect class="c" style="animation-delay:0.216s" x="164" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 25, 2025</title></rect>
-<rect class="c" style="animation-delay:0.234s" x="164" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 26, 2025</title></rect>
-<rect class="c" style="animation-delay:0.252s" x="164" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 27, 2025</title></rect>
-<rect class="c" style="animation-delay:0.162s" x="179" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 28, 2025</title></rect>
-<rect class="c" style="animation-delay:0.180s" x="179" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 29, 2025</title></rect>
-<rect class="c" style="animation-delay:0.198s" x="179" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 30, 2025</title></rect>
-<rect class="c" style="animation-delay:0.216s" x="179" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Dec 31, 2025</title></rect>
-<rect class="c" style="animation-delay:0.234s" x="179" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 01, 2026</title></rect>
-<rect class="c" style="animation-delay:0.252s" x="179" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 02, 2026</title></rect>
-<rect class="c" style="animation-delay:0.270s" x="179" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 03, 2026</title></rect>
-<rect class="c" style="animation-delay:0.180s" x="194" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 04, 2026</title></rect>
-<rect class="c" style="animation-delay:0.198s" x="194" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 05, 2026</title></rect>
-<rect class="c" style="animation-delay:0.216s" x="194" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 06, 2026</title></rect>
-<rect class="c" style="animation-delay:0.234s" x="194" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 07, 2026</title></rect>
-<rect class="c" style="animation-delay:0.252s" x="194" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 08, 2026</title></rect>
-<rect class="c" style="animation-delay:0.270s" x="194" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 09, 2026</title></rect>
-<rect class="c" style="animation-delay:0.288s" x="194" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 10, 2026</title></rect>
-<rect class="c" style="animation-delay:0.198s" x="209" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 11, 2026</title></rect>
-<rect class="c" style="animation-delay:0.216s" x="209" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 12, 2026</title></rect>
-<rect class="c" style="animation-delay:0.234s" x="209" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 13, 2026</title></rect>
-<rect class="c" style="animation-delay:0.252s" x="209" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 14, 2026</title></rect>
-<rect class="c" style="animation-delay:0.270s" x="209" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 15, 2026</title></rect>
-<rect class="c" style="animation-delay:0.288s" x="209" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 16, 2026</title></rect>
-<rect class="c" style="animation-delay:0.306s" x="209" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 17, 2026</title></rect>
-<rect class="c" style="animation-delay:0.216s" x="224" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 18, 2026</title></rect>
-<rect class="c" style="animation-delay:0.234s" x="224" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 19, 2026</title></rect>
-<rect class="c" style="animation-delay:0.252s" x="224" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 20, 2026</title></rect>
-<rect class="c" style="animation-delay:0.270s" x="224" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 21, 2026</title></rect>
-<rect class="c" style="animation-delay:0.288s" x="224" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 22, 2026</title></rect>
-<rect class="c" style="animation-delay:0.306s" x="224" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 23, 2026</title></rect>
-<rect class="c" style="animation-delay:0.324s" x="224" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 24, 2026</title></rect>
-<rect class="c" style="animation-delay:0.234s" x="239" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 25, 2026</title></rect>
-<rect class="c" style="animation-delay:0.252s" x="239" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 26, 2026</title></rect>
-<rect class="c" style="animation-delay:0.270s" x="239" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 27, 2026</title></rect>
-<rect class="c" style="animation-delay:0.288s" x="239" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 28, 2026</title></rect>
-<rect class="c" style="animation-delay:0.306s" x="239" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 29, 2026</title></rect>
-<rect class="c" style="animation-delay:0.324s" x="239" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 30, 2026</title></rect>
-<rect class="c" style="animation-delay:0.342s" x="239" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jan 31, 2026</title></rect>
-<rect class="c" style="animation-delay:0.252s" x="254" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 01, 2026</title></rect>
-<rect class="c" style="animation-delay:0.270s" x="254" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 02, 2026</title></rect>
-<rect class="c" style="animation-delay:0.288s" x="254" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 03, 2026</title></rect>
-<rect class="c" style="animation-delay:0.306s" x="254" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 04, 2026</title></rect>
-<rect class="c" style="animation-delay:0.324s" x="254" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 05, 2026</title></rect>
-<rect class="c" style="animation-delay:0.342s" x="254" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 06, 2026</title></rect>
-<rect class="c" style="animation-delay:0.360s" x="254" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 07, 2026</title></rect>
-<rect class="c" style="animation-delay:0.270s" x="269" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 08, 2026</title></rect>
-<rect class="c" style="animation-delay:0.288s" x="269" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 09, 2026</title></rect>
-<rect class="c" style="animation-delay:0.306s" x="269" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 10, 2026</title></rect>
-<rect class="c" style="animation-delay:0.324s" x="269" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 11, 2026</title></rect>
-<rect class="c" style="animation-delay:0.342s" x="269" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 12, 2026</title></rect>
-<rect class="c" style="animation-delay:0.360s" x="269" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 13, 2026</title></rect>
-<rect class="c" style="animation-delay:0.378s" x="269" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 14, 2026</title></rect>
-<rect class="c" style="animation-delay:0.288s" x="284" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 15, 2026</title></rect>
-<rect class="c" style="animation-delay:0.306s" x="284" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 16, 2026</title></rect>
-<rect class="c" style="animation-delay:0.324s" x="284" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 17, 2026</title></rect>
-<rect class="c" style="animation-delay:0.342s" x="284" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 18, 2026</title></rect>
-<rect class="c" style="animation-delay:0.360s" x="284" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 19, 2026</title></rect>
-<rect class="c" style="animation-delay:0.378s" x="284" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 20, 2026</title></rect>
-<rect class="c" style="animation-delay:0.396s" x="284" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 21, 2026</title></rect>
-<rect class="c" style="animation-delay:0.306s" x="299" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 22, 2026</title></rect>
-<rect class="c" style="animation-delay:0.324s" x="299" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 23, 2026</title></rect>
-<rect class="c" style="animation-delay:0.342s" x="299" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 24, 2026</title></rect>
-<rect class="c" style="animation-delay:0.360s" x="299" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 25, 2026</title></rect>
-<rect class="c" style="animation-delay:0.378s" x="299" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 26, 2026</title></rect>
-<rect class="c" style="animation-delay:0.396s" x="299" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 27, 2026</title></rect>
-<rect class="c" style="animation-delay:0.414s" x="299" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Feb 28, 2026</title></rect>
-<rect class="c" style="animation-delay:0.324s" x="314" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 01, 2026</title></rect>
-<rect class="c" style="animation-delay:0.342s" x="314" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 02, 2026</title></rect>
-<rect class="c" style="animation-delay:0.360s" x="314" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 03, 2026</title></rect>
-<rect class="c" style="animation-delay:0.378s" x="314" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 04, 2026</title></rect>
-<rect class="c" style="animation-delay:0.396s" x="314" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 05, 2026</title></rect>
-<rect class="c" style="animation-delay:0.414s" x="314" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 06, 2026</title></rect>
-<rect class="c" style="animation-delay:0.432s" x="314" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 07, 2026</title></rect>
-<rect class="c" style="animation-delay:0.342s" x="329" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 08, 2026</title></rect>
-<rect class="c" style="animation-delay:0.360s" x="329" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 09, 2026</title></rect>
-<rect class="c" style="animation-delay:0.378s" x="329" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 10, 2026</title></rect>
-<rect class="c" style="animation-delay:0.396s" x="329" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 11, 2026</title></rect>
-<rect class="c" style="animation-delay:0.414s" x="329" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 12, 2026</title></rect>
-<rect class="c" style="animation-delay:0.432s" x="329" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 13, 2026</title></rect>
-<rect class="c" style="animation-delay:0.450s" x="329" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 14, 2026</title></rect>
-<rect class="c" style="animation-delay:0.360s" x="344" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 15, 2026</title></rect>
-<rect class="c" style="animation-delay:0.378s" x="344" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 16, 2026</title></rect>
-<rect class="c" style="animation-delay:0.396s" x="344" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 17, 2026</title></rect>
-<rect class="c" style="animation-delay:0.414s" x="344" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 18, 2026</title></rect>
-<rect class="c" style="animation-delay:0.432s" x="344" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 19, 2026</title></rect>
-<rect class="c" style="animation-delay:0.450s" x="344" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 20, 2026</title></rect>
-<rect class="c" style="animation-delay:0.468s" x="344" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 21, 2026</title></rect>
-<rect class="c" style="animation-delay:0.378s" x="359" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 22, 2026</title></rect>
-<rect class="c" style="animation-delay:0.396s" x="359" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 23, 2026</title></rect>
-<rect class="c" style="animation-delay:0.414s" x="359" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 24, 2026</title></rect>
-<rect class="c" style="animation-delay:0.432s" x="359" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 25, 2026</title></rect>
-<rect class="c" style="animation-delay:0.450s" x="359" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 26, 2026</title></rect>
-<rect class="c" style="animation-delay:0.468s" x="359" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 27, 2026</title></rect>
-<rect class="c" style="animation-delay:0.486s" x="359" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 28, 2026</title></rect>
-<rect class="c" style="animation-delay:0.396s" x="374" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 29, 2026</title></rect>
-<rect class="c" style="animation-delay:0.414s" x="374" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 30, 2026</title></rect>
-<rect class="c" style="animation-delay:0.432s" x="374" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Mar 31, 2026</title></rect>
-<rect class="c" style="animation-delay:0.450s" x="374" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 01, 2026</title></rect>
-<rect class="c" style="animation-delay:0.468s" x="374" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 02, 2026</title></rect>
-<rect class="c" style="animation-delay:0.486s" x="374" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 03, 2026</title></rect>
-<rect class="c" style="animation-delay:0.504s" x="374" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 04, 2026</title></rect>
-<rect class="c" style="animation-delay:0.414s" x="389" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 05, 2026</title></rect>
-<rect class="c" style="animation-delay:0.432s" x="389" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 06, 2026</title></rect>
-<rect class="c" style="animation-delay:0.450s" x="389" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 07, 2026</title></rect>
-<rect class="c" style="animation-delay:0.468s" x="389" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 08, 2026</title></rect>
-<rect class="c" style="animation-delay:0.486s" x="389" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 09, 2026</title></rect>
-<rect class="c" style="animation-delay:0.504s" x="389" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 10, 2026</title></rect>
-<rect class="c" style="animation-delay:0.522s" x="389" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 11, 2026</title></rect>
-<rect class="c" style="animation-delay:0.432s" x="404" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 12, 2026</title></rect>
-<rect class="c" style="animation-delay:0.450s" x="404" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 13, 2026</title></rect>
-<rect class="c" style="animation-delay:0.468s" x="404" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 14, 2026</title></rect>
-<rect class="c" style="animation-delay:0.486s" x="404" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 15, 2026</title></rect>
-<rect class="c" style="animation-delay:0.504s" x="404" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 16, 2026</title></rect>
-<rect class="c" style="animation-delay:0.522s" x="404" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 17, 2026</title></rect>
-<rect class="c" style="animation-delay:0.540s" x="404" y="154" width="12" height="12" rx="3" fill="#0e4429"><title>1 on Apr 18, 2026</title></rect>
-<rect class="c" style="animation-delay:0.450s" x="419" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 19, 2026</title></rect>
-<rect class="c" style="animation-delay:0.468s" x="419" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 20, 2026</title></rect>
-<rect class="c" style="animation-delay:0.486s" x="419" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 21, 2026</title></rect>
-<rect class="c" style="animation-delay:0.504s" x="419" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 22, 2026</title></rect>
-<rect class="c" style="animation-delay:0.522s" x="419" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 23, 2026</title></rect>
-<rect class="c" style="animation-delay:0.540s" x="419" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 24, 2026</title></rect>
-<rect class="c" style="animation-delay:0.558s" x="419" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 25, 2026</title></rect>
-<rect class="c" style="animation-delay:0.468s" x="434" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 26, 2026</title></rect>
-<rect class="c" style="animation-delay:0.486s" x="434" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 27, 2026</title></rect>
-<rect class="c" style="animation-delay:0.504s" x="434" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 28, 2026</title></rect>
-<rect class="c" style="animation-delay:0.522s" x="434" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 29, 2026</title></rect>
-<rect class="c" style="animation-delay:0.540s" x="434" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Apr 30, 2026</title></rect>
-<rect class="c" style="animation-delay:0.558s" x="434" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 01, 2026</title></rect>
-<rect class="c" style="animation-delay:0.576s" x="434" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 02, 2026</title></rect>
-<rect class="c" style="animation-delay:0.486s" x="449" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 03, 2026</title></rect>
-<rect class="c" style="animation-delay:0.504s" x="449" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 04, 2026</title></rect>
-<rect class="c" style="animation-delay:0.522s" x="449" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 05, 2026</title></rect>
-<rect class="c" style="animation-delay:0.540s" x="449" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 06, 2026</title></rect>
-<rect class="c" style="animation-delay:0.558s" x="449" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 07, 2026</title></rect>
-<rect class="c" style="animation-delay:0.576s" x="449" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 08, 2026</title></rect>
-<rect class="c" style="animation-delay:0.594s" x="449" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 09, 2026</title></rect>
-<rect class="c" style="animation-delay:0.504s" x="464" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 10, 2026</title></rect>
-<rect class="c" style="animation-delay:0.522s" x="464" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 11, 2026</title></rect>
-<rect class="c" style="animation-delay:0.540s" x="464" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 12, 2026</title></rect>
-<rect class="c" style="animation-delay:0.558s" x="464" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 13, 2026</title></rect>
-<rect class="c" style="animation-delay:0.576s" x="464" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 14, 2026</title></rect>
-<rect class="c" style="animation-delay:0.594s" x="464" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 15, 2026</title></rect>
-<rect class="c" style="animation-delay:0.612s" x="464" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 16, 2026</title></rect>
-<rect class="c" style="animation-delay:0.522s" x="479" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 17, 2026</title></rect>
-<rect class="c" style="animation-delay:0.540s" x="479" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 18, 2026</title></rect>
-<rect class="c" style="animation-delay:0.558s" x="479" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 19, 2026</title></rect>
-<rect class="c" style="animation-delay:0.576s" x="479" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 20, 2026</title></rect>
-<rect class="c" style="animation-delay:0.594s" x="479" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 21, 2026</title></rect>
-<rect class="c" style="animation-delay:0.612s" x="479" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 22, 2026</title></rect>
-<rect class="c" style="animation-delay:0.630s" x="479" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 23, 2026</title></rect>
-<rect class="c" style="animation-delay:0.540s" x="494" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 24, 2026</title></rect>
-<rect class="c" style="animation-delay:0.558s" x="494" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 25, 2026</title></rect>
-<rect class="c" style="animation-delay:0.576s" x="494" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 26, 2026</title></rect>
-<rect class="c" style="animation-delay:0.594s" x="494" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 27, 2026</title></rect>
-<rect class="c" style="animation-delay:0.612s" x="494" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 28, 2026</title></rect>
-<rect class="c" style="animation-delay:0.630s" x="494" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 29, 2026</title></rect>
-<rect class="c" style="animation-delay:0.648s" x="494" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 30, 2026</title></rect>
-<rect class="c" style="animation-delay:0.558s" x="509" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on May 31, 2026</title></rect>
-<rect class="c" style="animation-delay:0.576s" x="509" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 01, 2026</title></rect>
-<rect class="c" style="animation-delay:0.594s" x="509" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 02, 2026</title></rect>
-<rect class="c" style="animation-delay:0.612s" x="509" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 03, 2026</title></rect>
-<rect class="c" style="animation-delay:0.630s" x="509" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 04, 2026</title></rect>
-<rect class="c" style="animation-delay:0.648s" x="509" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 05, 2026</title></rect>
-<rect class="c" style="animation-delay:0.666s" x="509" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 06, 2026</title></rect>
-<rect class="c" style="animation-delay:0.576s" x="524" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 07, 2026</title></rect>
-<rect class="c" style="animation-delay:0.594s" x="524" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 08, 2026</title></rect>
-<rect class="c" style="animation-delay:0.612s" x="524" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 09, 2026</title></rect>
-<rect class="c" style="animation-delay:0.630s" x="524" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 10, 2026</title></rect>
-<rect class="c" style="animation-delay:0.648s" x="524" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 11, 2026</title></rect>
-<rect class="c" style="animation-delay:0.666s" x="524" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 12, 2026</title></rect>
-<rect class="c" style="animation-delay:0.684s" x="524" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 13, 2026</title></rect>
-<rect class="c" style="animation-delay:0.594s" x="539" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 14, 2026</title></rect>
-<rect class="c" style="animation-delay:0.612s" x="539" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 15, 2026</title></rect>
-<rect class="c" style="animation-delay:0.630s" x="539" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 16, 2026</title></rect>
-<rect class="c" style="animation-delay:0.648s" x="539" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 17, 2026</title></rect>
-<rect class="c" style="animation-delay:0.666s" x="539" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 18, 2026</title></rect>
-<rect class="c" style="animation-delay:0.684s" x="539" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 19, 2026</title></rect>
-<rect class="c" style="animation-delay:0.702s" x="539" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 20, 2026</title></rect>
-<rect class="c" style="animation-delay:0.612s" x="554" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 21, 2026</title></rect>
-<rect class="c" style="animation-delay:0.630s" x="554" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 22, 2026</title></rect>
-<rect class="c" style="animation-delay:0.648s" x="554" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 23, 2026</title></rect>
-<rect class="c" style="animation-delay:0.666s" x="554" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 24, 2026</title></rect>
-<rect class="c" style="animation-delay:0.684s" x="554" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 25, 2026</title></rect>
-<rect class="c" style="animation-delay:0.702s" x="554" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 26, 2026</title></rect>
-<rect class="c" style="animation-delay:0.720s" x="554" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 27, 2026</title></rect>
-<rect class="c" style="animation-delay:0.630s" x="569" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 28, 2026</title></rect>
-<rect class="c" style="animation-delay:0.648s" x="569" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 29, 2026</title></rect>
-<rect class="c" style="animation-delay:0.666s" x="569" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jun 30, 2026</title></rect>
-<rect class="c" style="animation-delay:0.684s" x="569" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 01, 2026</title></rect>
-<rect class="c" style="animation-delay:0.702s" x="569" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 02, 2026</title></rect>
-<rect class="c" style="animation-delay:0.720s" x="569" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 03, 2026</title></rect>
-<rect class="c" style="animation-delay:0.738s" x="569" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 04, 2026</title></rect>
-<rect class="c" style="animation-delay:0.648s" x="584" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 05, 2026</title></rect>
-<rect class="c" style="animation-delay:0.666s" x="584" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 06, 2026</title></rect>
-<rect class="c" style="animation-delay:0.684s" x="584" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 07, 2026</title></rect>
-<rect class="c" style="animation-delay:0.702s" x="584" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 08, 2026</title></rect>
-<rect class="c" style="animation-delay:0.720s" x="584" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 09, 2026</title></rect>
-<rect class="c" style="animation-delay:0.738s" x="584" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 10, 2026</title></rect>
-<rect class="c" style="animation-delay:0.756s" x="584" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 11, 2026</title></rect>
-<rect class="c" style="animation-delay:0.666s" x="599" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 12, 2026</title></rect>
-<rect class="c" style="animation-delay:0.684s" x="599" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 13, 2026</title></rect>
-<rect class="c" style="animation-delay:0.702s" x="599" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 14, 2026</title></rect>
-<rect class="c" style="animation-delay:0.720s" x="599" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 15, 2026</title></rect>
-<rect class="c" style="animation-delay:0.738s" x="599" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 16, 2026</title></rect>
-<rect class="c" style="animation-delay:0.756s" x="599" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 17, 2026</title></rect>
-<rect class="c" style="animation-delay:0.774s" x="599" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 18, 2026</title></rect>
-<rect class="c" style="animation-delay:0.684s" x="614" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 19, 2026</title></rect>
-<rect class="c" style="animation-delay:0.702s" x="614" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 20, 2026</title></rect>
-<rect class="c" style="animation-delay:0.720s" x="614" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 21, 2026</title></rect>
-<rect class="c" style="animation-delay:0.738s" x="614" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 22, 2026</title></rect>
-<rect class="c" style="animation-delay:0.756s" x="614" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 23, 2026</title></rect>
-<rect class="c" style="animation-delay:0.774s" x="614" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 24, 2026</title></rect>
-<rect class="c" style="animation-delay:0.792s" x="614" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 25, 2026</title></rect>
-<rect class="c" style="animation-delay:0.702s" x="629" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 26, 2026</title></rect>
-<rect class="c" style="animation-delay:0.720s" x="629" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 27, 2026</title></rect>
-<rect class="c" style="animation-delay:0.738s" x="629" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 28, 2026</title></rect>
-<rect class="c" style="animation-delay:0.756s" x="629" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 29, 2026</title></rect>
-<rect class="c" style="animation-delay:0.774s" x="629" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 30, 2026</title></rect>
-<rect class="c" style="animation-delay:0.792s" x="629" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Jul 31, 2026</title></rect>
-<rect class="c" style="animation-delay:0.810s" x="629" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 01, 2026</title></rect>
-<rect class="c" style="animation-delay:0.720s" x="644" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 02, 2026</title></rect>
-<rect class="c" style="animation-delay:0.738s" x="644" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 03, 2026</title></rect>
-<rect class="c" style="animation-delay:0.756s" x="644" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 04, 2026</title></rect>
-<rect class="c" style="animation-delay:0.774s" x="644" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 05, 2026</title></rect>
-<rect class="c" style="animation-delay:0.792s" x="644" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 06, 2026</title></rect>
-<rect class="c" style="animation-delay:0.810s" x="644" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 07, 2026</title></rect>
-<rect class="c" style="animation-delay:0.828s" x="644" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 08, 2026</title></rect>
-<rect class="c" style="animation-delay:0.738s" x="659" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 09, 2026</title></rect>
-<rect class="c" style="animation-delay:0.756s" x="659" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 10, 2026</title></rect>
-<rect class="c" style="animation-delay:0.774s" x="659" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 11, 2026</title></rect>
-<rect class="c" style="animation-delay:0.792s" x="659" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 12, 2026</title></rect>
-<rect class="c" style="animation-delay:0.810s" x="659" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 13, 2026</title></rect>
-<rect class="c" style="animation-delay:0.828s" x="659" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 14, 2026</title></rect>
-<rect class="c" style="animation-delay:0.846s" x="659" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 15, 2026</title></rect>
-<rect class="c" style="animation-delay:0.756s" x="674" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 16, 2026</title></rect>
-<rect class="c" style="animation-delay:0.774s" x="674" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 17, 2026</title></rect>
-<rect class="c" style="animation-delay:0.792s" x="674" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 18, 2026</title></rect>
-<rect class="c" style="animation-delay:0.810s" x="674" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 19, 2026</title></rect>
-<rect class="c" style="animation-delay:0.828s" x="674" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 20, 2026</title></rect>
-<rect class="c" style="animation-delay:0.846s" x="674" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 21, 2026</title></rect>
-<rect class="c" style="animation-delay:0.864s" x="674" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 22, 2026</title></rect>
-<rect class="c" style="animation-delay:0.774s" x="689" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 23, 2026</title></rect>
-<rect class="c" style="animation-delay:0.792s" x="689" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 24, 2026</title></rect>
-<rect class="c" style="animation-delay:0.810s" x="689" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 25, 2026</title></rect>
-<rect class="c" style="animation-delay:0.828s" x="689" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 26, 2026</title></rect>
-<rect class="c" style="animation-delay:0.846s" x="689" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 27, 2026</title></rect>
-<rect class="c" style="animation-delay:0.864s" x="689" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 28, 2026</title></rect>
-<rect class="c" style="animation-delay:0.882s" x="689" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 29, 2026</title></rect>
-<rect class="c" style="animation-delay:0.792s" x="704" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 30, 2026</title></rect>
-<rect class="c" style="animation-delay:0.810s" x="704" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Aug 31, 2026</title></rect>
-<rect class="c" style="animation-delay:0.828s" x="704" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 01, 2026</title></rect>
-<rect class="c" style="animation-delay:0.846s" x="704" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 02, 2026</title></rect>
-<rect class="c" style="animation-delay:0.864s" x="704" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 03, 2026</title></rect>
-<rect class="c" style="animation-delay:0.882s" x="704" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 04, 2026</title></rect>
-<rect class="c" style="animation-delay:0.900s" x="704" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 05, 2026</title></rect>
-<rect class="c" style="animation-delay:0.810s" x="719" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 06, 2026</title></rect>
-<rect class="c" style="animation-delay:0.828s" x="719" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 07, 2026</title></rect>
-<rect class="c" style="animation-delay:0.846s" x="719" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 08, 2026</title></rect>
-<rect class="c" style="animation-delay:0.864s" x="719" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 09, 2026</title></rect>
-<rect class="c" style="animation-delay:0.882s" x="719" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 10, 2026</title></rect>
-<rect class="c" style="animation-delay:0.900s" x="719" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 11, 2026</title></rect>
-<rect class="c" style="animation-delay:0.918s" x="719" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 12, 2026</title></rect>
-<rect class="c" style="animation-delay:0.828s" x="734" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 13, 2026</title></rect>
-<rect class="c" style="animation-delay:0.846s" x="734" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 14, 2026</title></rect>
-<rect class="c" style="animation-delay:0.864s" x="734" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 15, 2026</title></rect>
-<rect class="c" style="animation-delay:0.882s" x="734" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 16, 2026</title></rect>
-<rect class="c" style="animation-delay:0.900s" x="734" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 17, 2026</title></rect>
-<rect class="c" style="animation-delay:0.918s" x="734" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 18, 2026</title></rect>
-<rect class="c" style="animation-delay:0.936s" x="734" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 19, 2026</title></rect>
-<rect class="c" style="animation-delay:0.846s" x="749" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 20, 2026</title></rect>
-<rect class="c" style="animation-delay:0.864s" x="749" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 21, 2026</title></rect>
-<rect class="c" style="animation-delay:0.882s" x="749" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 22, 2026</title></rect>
-<rect class="c" style="animation-delay:0.900s" x="749" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 23, 2026</title></rect>
-<rect class="c" style="animation-delay:0.918s" x="749" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 24, 2026</title></rect>
-<rect class="c" style="animation-delay:0.936s" x="749" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 25, 2026</title></rect>
-<rect class="c" style="animation-delay:0.954s" x="749" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 26, 2026</title></rect>
-<rect class="c" style="animation-delay:0.864s" x="764" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 27, 2026</title></rect>
-<rect class="c" style="animation-delay:0.882s" x="764" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 28, 2026</title></rect>
-<rect class="c" style="animation-delay:0.900s" x="764" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 29, 2026</title></rect>
-<rect class="c" style="animation-delay:0.918s" x="764" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Sep 30, 2026</title></rect>
-<rect class="c" style="animation-delay:0.936s" x="764" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 01, 2026</title></rect>
-<rect class="c" style="animation-delay:0.954s" x="764" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 02, 2026</title></rect>
-<rect class="c" style="animation-delay:0.972s" x="764" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 03, 2026</title></rect>
-<rect class="c" style="animation-delay:0.882s" x="779" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 04, 2026</title></rect>
-<rect class="c" style="animation-delay:0.900s" x="779" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 05, 2026</title></rect>
-<rect class="c" style="animation-delay:0.918s" x="779" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 06, 2026</title></rect>
-<rect class="c" style="animation-delay:0.936s" x="779" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 07, 2026</title></rect>
-<rect class="c" style="animation-delay:0.954s" x="779" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 08, 2026</title></rect>
-<rect class="c" style="animation-delay:0.972s" x="779" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 09, 2026</title></rect>
-<rect class="c" style="animation-delay:0.990s" x="779" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 10, 2026</title></rect>
-<rect class="c" style="animation-delay:0.900s" x="794" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 11, 2026</title></rect>
-<rect class="c" style="animation-delay:0.918s" x="794" y="79" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 12, 2026</title></rect>
-<rect class="c" style="animation-delay:0.936s" x="794" y="94" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 13, 2026</title></rect>
-<rect class="c" style="animation-delay:0.954s" x="794" y="109" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 14, 2026</title></rect>
-<rect class="c" style="animation-delay:0.972s" x="794" y="124" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 15, 2026</title></rect>
-<rect class="c" style="animation-delay:0.990s" x="794" y="139" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 16, 2026</title></rect>
-<rect class="c" style="animation-delay:1.008s" x="794" y="154" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 17, 2026</title></rect>
-<rect class="c" style="animation-delay:0.918s" x="809" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 18, 2026</title></rect>
-<rect class="c" style="animation-delay:0.936s" x="809" y="79" width="12" height="12" rx="3" fill="#39d353"><title>19 on Oct 19, 2026</title></rect>
-<rect class="c" style="animation-delay:0.954s" x="809" y="94" width="12" height="12" rx="3" fill="#26a641"><title>9 on Oct 20, 2026</title></rect>
-<rect class="c" style="animation-delay:0.972s" x="809" y="109" width="12" height="12" rx="3" fill="#26a641"><title>7 on Oct 21, 2026</title></rect>
-<rect class="c" style="animation-delay:0.990s" x="809" y="124" width="12" height="12" rx="3" fill="#39d353"><title>12 on Oct 22, 2026</title></rect>
-<rect class="c" style="animation-delay:1.008s" x="809" y="139" width="12" height="12" rx="3" fill="#0e4429"><title>2 on Oct 23, 2026</title></rect>
-<rect class="c" style="animation-delay:1.026s" x="809" y="154" width="12" height="12" rx="3" fill="#0e4429"><title>3 on Oct 24, 2026</title></rect>
-<rect class="c" style="animation-delay:0.936s" x="824" y="64" width="12" height="12" rx="3" fill="#161b22"><title>0 on Oct 25, 2026</title></rect>
-<rect class="c" style="animation-delay:0.954s" x="824" y="79" width="12" height="12" rx="3" fill="#0e4429"><title>1 on Oct 26, 2026</title></rect>
-<text x="44" y="193" class="t">54 contributions in the last year · current streak 1d · longest 6d · best day 19 (Oct 19)</text>
-<text x="671" y="215" class="t">Less</text>
-<rect x="705" y="205" width="12" height="12" rx="3" fill="#161b22"/>
-<rect x="720" y="205" width="12" height="12" rx="3" fill="#0e4429"/>
-<rect x="735" y="205" width="12" height="12" rx="3" fill="#006d32"/>
-<rect x="750" y="205" width="12" height="12" rx="3" fill="#26a641"/>
-<rect x="765" y="205" width="12" height="12" rx="3" fill="#39d353"/>
-<text x="786" y="215" class="t">More</text>
+<text x="115" y="176" text-anchor="end" class="t">Mon</text>
+<text x="97" y="188" text-anchor="end" class="t">Wed</text>
+<text x="79" y="200" text-anchor="end" class="t">Fri</text>
+<text x="88" y="222" class="t">Nov</text>
+<text x="148" y="222" class="t">Dec</text>
+<text x="196" y="222" class="t">Jan</text>
+<text x="244" y="222" class="t">Feb</text>
+<text x="292" y="222" class="t">Mar</text>
+<text x="352" y="222" class="t">Apr</text>
+<text x="400" y="222" class="t">May</text>
+<text x="460" y="222" class="t">Jun</text>
+<text x="508" y="222" class="t">Jul</text>
+<text x="556" y="222" class="t">Aug</text>
+<text x="616" y="222" class="t">Sep</text>
+<text x="664" y="222" class="t">Oct</text>
+<polygon class="f" style="animation-delay:0.180s" points="130.0,170.0 140.0,170.0 147.0,165.0 137.0,165.0" fill="#161b22"><title>0 on Oct 26, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.192s" points="142.0,170.0 152.0,170.0 159.0,165.0 149.0,165.0" fill="#161b22"><title>0 on Nov 02, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.204s" points="154.0,170.0 164.0,170.0 171.0,165.0 161.0,165.0" fill="#161b22"><title>0 on Nov 09, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.216s" points="166.0,170.0 176.0,170.0 183.0,165.0 173.0,165.0" fill="#161b22"><title>0 on Nov 16, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.228s" points="178.0,170.0 188.0,170.0 195.0,165.0 185.0,165.0" fill="#161b22"><title>0 on Nov 23, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.240s" points="190.0,170.0 200.0,170.0 207.0,165.0 197.0,165.0" fill="#161b22"><title>0 on Nov 30, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.252s" points="202.0,170.0 212.0,170.0 219.0,165.0 209.0,165.0" fill="#161b22"><title>0 on Dec 07, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.264s" points="214.0,170.0 224.0,170.0 231.0,165.0 221.0,165.0" fill="#161b22"><title>0 on Dec 14, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.276s" points="226.0,170.0 236.0,170.0 243.0,165.0 233.0,165.0" fill="#161b22"><title>0 on Dec 21, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.288s" points="238.0,170.0 248.0,170.0 255.0,165.0 245.0,165.0" fill="#161b22"><title>0 on Dec 28, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.300s" points="250.0,170.0 260.0,170.0 267.0,165.0 257.0,165.0" fill="#161b22"><title>0 on Jan 04, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.312s" points="262.0,170.0 272.0,170.0 279.0,165.0 269.0,165.0" fill="#161b22"><title>0 on Jan 11, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.324s" points="274.0,170.0 284.0,170.0 291.0,165.0 281.0,165.0" fill="#161b22"><title>0 on Jan 18, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.336s" points="286.0,170.0 296.0,170.0 303.0,165.0 293.0,165.0" fill="#161b22"><title>0 on Jan 25, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.348s" points="298.0,170.0 308.0,170.0 315.0,165.0 305.0,165.0" fill="#161b22"><title>0 on Feb 01, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.360s" points="310.0,170.0 320.0,170.0 327.0,165.0 317.0,165.0" fill="#161b22"><title>0 on Feb 08, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.372s" points="322.0,170.0 332.0,170.0 339.0,165.0 329.0,165.0" fill="#161b22"><title>0 on Feb 15, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.384s" points="334.0,170.0 344.0,170.0 351.0,165.0 341.0,165.0" fill="#161b22"><title>0 on Feb 22, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.396s" points="346.0,170.0 356.0,170.0 363.0,165.0 353.0,165.0" fill="#161b22"><title>0 on Mar 01, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.408s" points="358.0,170.0 368.0,170.0 375.0,165.0 365.0,165.0" fill="#161b22"><title>0 on Mar 08, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.420s" points="370.0,170.0 380.0,170.0 387.0,165.0 377.0,165.0" fill="#161b22"><title>0 on Mar 15, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.432s" points="382.0,170.0 392.0,170.0 399.0,165.0 389.0,165.0" fill="#161b22"><title>0 on Mar 22, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.444s" points="394.0,170.0 404.0,170.0 411.0,165.0 401.0,165.0" fill="#161b22"><title>0 on Mar 29, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.456s" points="406.0,170.0 416.0,170.0 423.0,165.0 413.0,165.0" fill="#161b22"><title>0 on Apr 05, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.468s" points="418.0,170.0 428.0,170.0 435.0,165.0 425.0,165.0" fill="#161b22"><title>0 on Apr 12, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.480s" points="430.0,170.0 440.0,170.0 447.0,165.0 437.0,165.0" fill="#161b22"><title>0 on Apr 19, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.492s" points="442.0,170.0 452.0,170.0 459.0,165.0 449.0,165.0" fill="#161b22"><title>0 on Apr 26, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.504s" points="454.0,170.0 464.0,170.0 471.0,165.0 461.0,165.0" fill="#161b22"><title>0 on May 03, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.516s" points="466.0,170.0 476.0,170.0 483.0,165.0 473.0,165.0" fill="#161b22"><title>0 on May 10, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.528s" points="478.0,170.0 488.0,170.0 495.0,165.0 485.0,165.0" fill="#161b22"><title>0 on May 17, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.540s" points="490.0,170.0 500.0,170.0 507.0,165.0 497.0,165.0" fill="#161b22"><title>0 on May 24, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.552s" points="502.0,170.0 512.0,170.0 519.0,165.0 509.0,165.0" fill="#161b22"><title>0 on May 31, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.564s" points="514.0,170.0 524.0,170.0 531.0,165.0 521.0,165.0" fill="#161b22"><title>0 on Jun 07, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.576s" points="526.0,170.0 536.0,170.0 543.0,165.0 533.0,165.0" fill="#161b22"><title>0 on Jun 14, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.588s" points="538.0,170.0 548.0,170.0 555.0,165.0 545.0,165.0" fill="#161b22"><title>0 on Jun 21, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.600s" points="550.0,170.0 560.0,170.0 567.0,165.0 557.0,165.0" fill="#161b22"><title>0 on Jun 28, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.612s" points="562.0,170.0 572.0,170.0 579.0,165.0 569.0,165.0" fill="#161b22"><title>0 on Jul 05, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.624s" points="574.0,170.0 584.0,170.0 591.0,165.0 581.0,165.0" fill="#161b22"><title>0 on Jul 12, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.636s" points="586.0,170.0 596.0,170.0 603.0,165.0 593.0,165.0" fill="#161b22"><title>0 on Jul 19, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.648s" points="598.0,170.0 608.0,170.0 615.0,165.0 605.0,165.0" fill="#161b22"><title>0 on Jul 26, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.660s" points="610.0,170.0 620.0,170.0 627.0,165.0 617.0,165.0" fill="#161b22"><title>0 on Aug 02, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.672s" points="622.0,170.0 632.0,170.0 639.0,165.0 629.0,165.0" fill="#161b22"><title>0 on Aug 09, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.684s" points="634.0,170.0 644.0,170.0 651.0,165.0 641.0,165.0" fill="#161b22"><title>0 on Aug 16, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.696s" points="646.0,170.0 656.0,170.0 663.0,165.0 653.0,165.0" fill="#161b22"><title>0 on Aug 23, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.708s" points="658.0,170.0 668.0,170.0 675.0,165.0 665.0,165.0" fill="#161b22"><title>0 on Aug 30, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.720s" points="670.0,170.0 680.0,170.0 687.0,165.0 677.0,165.0" fill="#161b22"><title>0 on Sep 06, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.732s" points="682.0,170.0 692.0,170.0 699.0,165.0 689.0,165.0" fill="#161b22"><title>0 on Sep 13, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.744s" points="694.0,170.0 704.0,170.0 711.0,165.0 701.0,165.0" fill="#161b22"><title>0 on Sep 20, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.756s" points="706.0,170.0 716.0,170.0 723.0,165.0 713.0,165.0" fill="#161b22"><title>0 on Sep 27, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.768s" points="718.0,170.0 728.0,170.0 735.0,165.0 725.0,165.0" fill="#161b22"><title>0 on Oct 04, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.780s" points="730.0,170.0 740.0,170.0 747.0,165.0 737.0,165.0" fill="#161b22"><title>0 on Oct 11, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.792s" points="742.0,170.0 752.0,170.0 759.0,165.0 749.0,165.0" fill="#161b22"><title>0 on Oct 18, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.804s" points="754.0,170.0 764.0,170.0 771.0,165.0 761.0,165.0" fill="#161b22"><title>0 on Oct 25, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.150s" points="121.0,176.0 131.0,176.0 138.0,171.0 128.0,171.0" fill="#161b22"><title>0 on Oct 27, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.162s" points="133.0,176.0 143.0,176.0 150.0,171.0 140.0,171.0" fill="#161b22"><title>0 on Nov 03, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.174s" points="145.0,176.0 155.0,176.0 162.0,171.0 152.0,171.0" fill="#161b22"><title>0 on Nov 10, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.186s" points="157.0,176.0 167.0,176.0 174.0,171.0 164.0,171.0" fill="#161b22"><title>0 on Nov 17, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.198s" points="169.0,176.0 179.0,176.0 186.0,171.0 176.0,171.0" fill="#161b22"><title>0 on Nov 24, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.210s" points="181.0,176.0 191.0,176.0 198.0,171.0 188.0,171.0" fill="#161b22"><title>0 on Dec 01, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.222s" points="193.0,176.0 203.0,176.0 210.0,171.0 200.0,171.0" fill="#161b22"><title>0 on Dec 08, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.234s" points="205.0,176.0 215.0,176.0 222.0,171.0 212.0,171.0" fill="#161b22"><title>0 on Dec 15, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.246s" points="217.0,176.0 227.0,176.0 234.0,171.0 224.0,171.0" fill="#161b22"><title>0 on Dec 22, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.258s" points="229.0,176.0 239.0,176.0 246.0,171.0 236.0,171.0" fill="#161b22"><title>0 on Dec 29, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.270s" points="241.0,176.0 251.0,176.0 258.0,171.0 248.0,171.0" fill="#161b22"><title>0 on Jan 05, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.282s" points="253.0,176.0 263.0,176.0 270.0,171.0 260.0,171.0" fill="#161b22"><title>0 on Jan 12, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.294s" points="265.0,176.0 275.0,176.0 282.0,171.0 272.0,171.0" fill="#161b22"><title>0 on Jan 19, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.306s" points="277.0,176.0 287.0,176.0 294.0,171.0 284.0,171.0" fill="#161b22"><title>0 on Jan 26, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.318s" points="289.0,176.0 299.0,176.0 306.0,171.0 296.0,171.0" fill="#161b22"><title>0 on Feb 02, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.330s" points="301.0,176.0 311.0,176.0 318.0,171.0 308.0,171.0" fill="#161b22"><title>0 on Feb 09, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.342s" points="313.0,176.0 323.0,176.0 330.0,171.0 320.0,171.0" fill="#161b22"><title>0 on Feb 16, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.354s" points="325.0,176.0 335.0,176.0 342.0,171.0 332.0,171.0" fill="#161b22"><title>0 on Feb 23, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.366s" points="337.0,176.0 347.0,176.0 354.0,171.0 344.0,171.0" fill="#161b22"><title>0 on Mar 02, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.378s" points="349.0,176.0 359.0,176.0 366.0,171.0 356.0,171.0" fill="#161b22"><title>0 on Mar 09, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.390s" points="361.0,176.0 371.0,176.0 378.0,171.0 368.0,171.0" fill="#161b22"><title>0 on Mar 16, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.402s" points="373.0,176.0 383.0,176.0 390.0,171.0 380.0,171.0" fill="#161b22"><title>0 on Mar 23, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.414s" points="385.0,176.0 395.0,176.0 402.0,171.0 392.0,171.0" fill="#161b22"><title>0 on Mar 30, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.426s" points="397.0,176.0 407.0,176.0 414.0,171.0 404.0,171.0" fill="#161b22"><title>0 on Apr 06, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.438s" points="409.0,176.0 419.0,176.0 426.0,171.0 416.0,171.0" fill="#161b22"><title>0 on Apr 13, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.450s" points="421.0,176.0 431.0,176.0 438.0,171.0 428.0,171.0" fill="#161b22"><title>0 on Apr 20, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.462s" points="433.0,176.0 443.0,176.0 450.0,171.0 440.0,171.0" fill="#161b22"><title>0 on Apr 27, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.474s" points="445.0,176.0 455.0,176.0 462.0,171.0 452.0,171.0" fill="#161b22"><title>0 on May 04, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.486s" points="457.0,176.0 467.0,176.0 474.0,171.0 464.0,171.0" fill="#161b22"><title>0 on May 11, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.498s" points="469.0,176.0 479.0,176.0 486.0,171.0 476.0,171.0" fill="#161b22"><title>0 on May 18, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.510s" points="481.0,176.0 491.0,176.0 498.0,171.0 488.0,171.0" fill="#161b22"><title>0 on May 25, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.522s" points="493.0,176.0 503.0,176.0 510.0,171.0 500.0,171.0" fill="#161b22"><title>0 on Jun 01, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.534s" points="505.0,176.0 515.0,176.0 522.0,171.0 512.0,171.0" fill="#161b22"><title>0 on Jun 08, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.546s" points="517.0,176.0 527.0,176.0 534.0,171.0 524.0,171.0" fill="#161b22"><title>0 on Jun 15, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.558s" points="529.0,176.0 539.0,176.0 546.0,171.0 536.0,171.0" fill="#161b22"><title>0 on Jun 22, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.570s" points="541.0,176.0 551.0,176.0 558.0,171.0 548.0,171.0" fill="#161b22"><title>0 on Jun 29, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.582s" points="553.0,176.0 563.0,176.0 570.0,171.0 560.0,171.0" fill="#161b22"><title>0 on Jul 06, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.594s" points="565.0,176.0 575.0,176.0 582.0,171.0 572.0,171.0" fill="#161b22"><title>0 on Jul 13, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.606s" points="577.0,176.0 587.0,176.0 594.0,171.0 584.0,171.0" fill="#161b22"><title>0 on Jul 20, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.618s" points="589.0,176.0 599.0,176.0 606.0,171.0 596.0,171.0" fill="#161b22"><title>0 on Jul 27, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.630s" points="601.0,176.0 611.0,176.0 618.0,171.0 608.0,171.0" fill="#161b22"><title>0 on Aug 03, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.642s" points="613.0,176.0 623.0,176.0 630.0,171.0 620.0,171.0" fill="#161b22"><title>0 on Aug 10, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.654s" points="625.0,176.0 635.0,176.0 642.0,171.0 632.0,171.0" fill="#161b22"><title>0 on Aug 17, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.666s" points="637.0,176.0 647.0,176.0 654.0,171.0 644.0,171.0" fill="#161b22"><title>0 on Aug 24, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.678s" points="649.0,176.0 659.0,176.0 666.0,171.0 656.0,171.0" fill="#161b22"><title>0 on Aug 31, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.690s" points="661.0,176.0 671.0,176.0 678.0,171.0 668.0,171.0" fill="#161b22"><title>0 on Sep 07, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.702s" points="673.0,176.0 683.0,176.0 690.0,171.0 680.0,171.0" fill="#161b22"><title>0 on Sep 14, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.714s" points="685.0,176.0 695.0,176.0 702.0,171.0 692.0,171.0" fill="#161b22"><title>0 on Sep 21, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.726s" points="697.0,176.0 707.0,176.0 714.0,171.0 704.0,171.0" fill="#161b22"><title>0 on Sep 28, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.738s" points="709.0,176.0 719.0,176.0 726.0,171.0 716.0,171.0" fill="#161b22"><title>0 on Oct 05, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.750s" points="721.0,176.0 731.0,176.0 738.0,171.0 728.0,171.0" fill="#161b22"><title>0 on Oct 12, 2026</title></polygon>
+<g class="b" style="animation-delay:1.270s"><title>19 on Oct 19, 2026</title><rect x="733" y="76.0" width="10" height="100.0" fill="#39d353"/><polygon points="743.0,176.0 750.0,171.0 750.0,71.0 743.0,76.0" fill="#227f32"/><polygon points="733.0,76.0 743.0,76.0 750.0,71.0 740.0,71.0" fill="#74e087"/></g>
+<g class="b" style="animation-delay:1.290s"><title>2 on Oct 26, 2026</title><rect x="745" y="143.6" width="10" height="32.4" fill="#0e4429"/><polygon points="755.0,176.0 762.0,171.0 762.0,138.6 755.0,143.6" fill="#082919"/><polygon points="745.0,143.6 755.0,143.6 762.0,138.6 752.0,138.6" fill="#567c69"/></g>
+<polygon class="f" style="animation-delay:0.120s" points="112.0,182.0 122.0,182.0 129.0,177.0 119.0,177.0" fill="#161b22"><title>0 on Oct 28, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.132s" points="124.0,182.0 134.0,182.0 141.0,177.0 131.0,177.0" fill="#161b22"><title>0 on Nov 04, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.144s" points="136.0,182.0 146.0,182.0 153.0,177.0 143.0,177.0" fill="#161b22"><title>0 on Nov 11, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.156s" points="148.0,182.0 158.0,182.0 165.0,177.0 155.0,177.0" fill="#161b22"><title>0 on Nov 18, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.168s" points="160.0,182.0 170.0,182.0 177.0,177.0 167.0,177.0" fill="#161b22"><title>0 on Nov 25, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.180s" points="172.0,182.0 182.0,182.0 189.0,177.0 179.0,177.0" fill="#161b22"><title>0 on Dec 02, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.192s" points="184.0,182.0 194.0,182.0 201.0,177.0 191.0,177.0" fill="#161b22"><title>0 on Dec 09, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.204s" points="196.0,182.0 206.0,182.0 213.0,177.0 203.0,177.0" fill="#161b22"><title>0 on Dec 16, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.216s" points="208.0,182.0 218.0,182.0 225.0,177.0 215.0,177.0" fill="#161b22"><title>0 on Dec 23, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.228s" points="220.0,182.0 230.0,182.0 237.0,177.0 227.0,177.0" fill="#161b22"><title>0 on Dec 30, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.240s" points="232.0,182.0 242.0,182.0 249.0,177.0 239.0,177.0" fill="#161b22"><title>0 on Jan 06, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.252s" points="244.0,182.0 254.0,182.0 261.0,177.0 251.0,177.0" fill="#161b22"><title>0 on Jan 13, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.264s" points="256.0,182.0 266.0,182.0 273.0,177.0 263.0,177.0" fill="#161b22"><title>0 on Jan 20, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.276s" points="268.0,182.0 278.0,182.0 285.0,177.0 275.0,177.0" fill="#161b22"><title>0 on Jan 27, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.288s" points="280.0,182.0 290.0,182.0 297.0,177.0 287.0,177.0" fill="#161b22"><title>0 on Feb 03, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.300s" points="292.0,182.0 302.0,182.0 309.0,177.0 299.0,177.0" fill="#161b22"><title>0 on Feb 10, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.312s" points="304.0,182.0 314.0,182.0 321.0,177.0 311.0,177.0" fill="#161b22"><title>0 on Feb 17, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.324s" points="316.0,182.0 326.0,182.0 333.0,177.0 323.0,177.0" fill="#161b22"><title>0 on Feb 24, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.336s" points="328.0,182.0 338.0,182.0 345.0,177.0 335.0,177.0" fill="#161b22"><title>0 on Mar 03, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.348s" points="340.0,182.0 350.0,182.0 357.0,177.0 347.0,177.0" fill="#161b22"><title>0 on Mar 10, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.360s" points="352.0,182.0 362.0,182.0 369.0,177.0 359.0,177.0" fill="#161b22"><title>0 on Mar 17, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.372s" points="364.0,182.0 374.0,182.0 381.0,177.0 371.0,177.0" fill="#161b22"><title>0 on Mar 24, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.384s" points="376.0,182.0 386.0,182.0 393.0,177.0 383.0,177.0" fill="#161b22"><title>0 on Mar 31, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.396s" points="388.0,182.0 398.0,182.0 405.0,177.0 395.0,177.0" fill="#161b22"><title>0 on Apr 07, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.408s" points="400.0,182.0 410.0,182.0 417.0,177.0 407.0,177.0" fill="#161b22"><title>0 on Apr 14, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.420s" points="412.0,182.0 422.0,182.0 429.0,177.0 419.0,177.0" fill="#161b22"><title>0 on Apr 21, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.432s" points="424.0,182.0 434.0,182.0 441.0,177.0 431.0,177.0" fill="#161b22"><title>0 on Apr 28, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.444s" points="436.0,182.0 446.0,182.0 453.0,177.0 443.0,177.0" fill="#161b22"><title>0 on May 05, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.456s" points="448.0,182.0 458.0,182.0 465.0,177.0 455.0,177.0" fill="#161b22"><title>0 on May 12, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.468s" points="460.0,182.0 470.0,182.0 477.0,177.0 467.0,177.0" fill="#161b22"><title>0 on May 19, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.480s" points="472.0,182.0 482.0,182.0 489.0,177.0 479.0,177.0" fill="#161b22"><title>0 on May 26, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.492s" points="484.0,182.0 494.0,182.0 501.0,177.0 491.0,177.0" fill="#161b22"><title>0 on Jun 02, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.504s" points="496.0,182.0 506.0,182.0 513.0,177.0 503.0,177.0" fill="#161b22"><title>0 on Jun 09, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.516s" points="508.0,182.0 518.0,182.0 525.0,177.0 515.0,177.0" fill="#161b22"><title>0 on Jun 16, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.528s" points="520.0,182.0 530.0,182.0 537.0,177.0 527.0,177.0" fill="#161b22"><title>0 on Jun 23, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.540s" points="532.0,182.0 542.0,182.0 549.0,177.0 539.0,177.0" fill="#161b22"><title>0 on Jun 30, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.552s" points="544.0,182.0 554.0,182.0 561.0,177.0 551.0,177.0" fill="#161b22"><title>0 on Jul 07, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.564s" points="556.0,182.0 566.0,182.0 573.0,177.0 563.0,177.0" fill="#161b22"><title>0 on Jul 14, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.576s" points="568.0,182.0 578.0,182.0 585.0,177.0 575.0,177.0" fill="#161b22"><title>0 on Jul 21, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.588s" points="580.0,182.0 590.0,182.0 597.0,177.0 587.0,177.0" fill="#161b22"><title>0 on Jul 28, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.600s" points="592.0,182.0 602.0,182.0 609.0,177.0 599.0,177.0" fill="#161b22"><title>0 on Aug 04, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.612s" points="604.0,182.0 614.0,182.0 621.0,177.0 611.0,177.0" fill="#161b22"><title>0 on Aug 11, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.624s" points="616.0,182.0 626.0,182.0 633.0,177.0 623.0,177.0" fill="#161b22"><title>0 on Aug 18, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.636s" points="628.0,182.0 638.0,182.0 645.0,177.0 635.0,177.0" fill="#161b22"><title>0 on Aug 25, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.648s" points="640.0,182.0 650.0,182.0 657.0,177.0 647.0,177.0" fill="#161b22"><title>0 on Sep 01, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.660s" points="652.0,182.0 662.0,182.0 669.0,177.0 659.0,177.0" fill="#161b22"><title>0 on Sep 08, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.672s" points="664.0,182.0 674.0,182.0 681.0,177.0 671.0,177.0" fill="#161b22"><title>0 on Sep 15, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.684s" points="676.0,182.0 686.0,182.0 693.0,177.0 683.0,177.0" fill="#161b22"><title>0 on Sep 22, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.696s" points="688.0,182.0 698.0,182.0 705.0,177.0 695.0,177.0" fill="#161b22"><title>0 on Sep 29, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.708s" points="700.0,182.0 710.0,182.0 717.0,177.0 707.0,177.0" fill="#161b22"><title>0 on Oct 06, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.720s" points="712.0,182.0 722.0,182.0 729.0,177.0 719.0,177.0" fill="#161b22"><title>0 on Oct 13, 2026</title></polygon>
+<g class="b" style="animation-delay:1.220s"><title>9 on Oct 20, 2026</title><rect x="724" y="113.2" width="10" height="68.8" fill="#26a641"/><polygon points="734.0,182.0 741.0,177.0 741.0,108.2 734.0,113.2" fill="#176427"/><polygon points="724.0,113.2 734.0,113.2 741.0,108.2 731.0,108.2" fill="#67c17a"/></g>
+<g class="b" style="animation-delay:1.240s"><title>2 on Oct 27, 2026</title><rect x="736" y="149.6" width="10" height="32.4" fill="#0e4429"/><polygon points="746.0,182.0 753.0,177.0 753.0,144.6 746.0,149.6" fill="#082919"/><polygon points="736.0,149.6 746.0,149.6 753.0,144.6 743.0,144.6" fill="#567c69"/></g>
+<polygon class="f" style="animation-delay:0.090s" points="103.0,188.0 113.0,188.0 120.0,183.0 110.0,183.0" fill="#161b22"><title>0 on Oct 29, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.102s" points="115.0,188.0 125.0,188.0 132.0,183.0 122.0,183.0" fill="#161b22"><title>0 on Nov 05, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.114s" points="127.0,188.0 137.0,188.0 144.0,183.0 134.0,183.0" fill="#161b22"><title>0 on Nov 12, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.126s" points="139.0,188.0 149.0,188.0 156.0,183.0 146.0,183.0" fill="#161b22"><title>0 on Nov 19, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.138s" points="151.0,188.0 161.0,188.0 168.0,183.0 158.0,183.0" fill="#161b22"><title>0 on Nov 26, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.150s" points="163.0,188.0 173.0,188.0 180.0,183.0 170.0,183.0" fill="#161b22"><title>0 on Dec 03, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.162s" points="175.0,188.0 185.0,188.0 192.0,183.0 182.0,183.0" fill="#161b22"><title>0 on Dec 10, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.174s" points="187.0,188.0 197.0,188.0 204.0,183.0 194.0,183.0" fill="#161b22"><title>0 on Dec 17, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.186s" points="199.0,188.0 209.0,188.0 216.0,183.0 206.0,183.0" fill="#161b22"><title>0 on Dec 24, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.198s" points="211.0,188.0 221.0,188.0 228.0,183.0 218.0,183.0" fill="#161b22"><title>0 on Dec 31, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.210s" points="223.0,188.0 233.0,188.0 240.0,183.0 230.0,183.0" fill="#161b22"><title>0 on Jan 07, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.222s" points="235.0,188.0 245.0,188.0 252.0,183.0 242.0,183.0" fill="#161b22"><title>0 on Jan 14, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.234s" points="247.0,188.0 257.0,188.0 264.0,183.0 254.0,183.0" fill="#161b22"><title>0 on Jan 21, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.246s" points="259.0,188.0 269.0,188.0 276.0,183.0 266.0,183.0" fill="#161b22"><title>0 on Jan 28, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.258s" points="271.0,188.0 281.0,188.0 288.0,183.0 278.0,183.0" fill="#161b22"><title>0 on Feb 04, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.270s" points="283.0,188.0 293.0,188.0 300.0,183.0 290.0,183.0" fill="#161b22"><title>0 on Feb 11, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.282s" points="295.0,188.0 305.0,188.0 312.0,183.0 302.0,183.0" fill="#161b22"><title>0 on Feb 18, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.294s" points="307.0,188.0 317.0,188.0 324.0,183.0 314.0,183.0" fill="#161b22"><title>0 on Feb 25, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.306s" points="319.0,188.0 329.0,188.0 336.0,183.0 326.0,183.0" fill="#161b22"><title>0 on Mar 04, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.318s" points="331.0,188.0 341.0,188.0 348.0,183.0 338.0,183.0" fill="#161b22"><title>0 on Mar 11, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.330s" points="343.0,188.0 353.0,188.0 360.0,183.0 350.0,183.0" fill="#161b22"><title>0 on Mar 18, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.342s" points="355.0,188.0 365.0,188.0 372.0,183.0 362.0,183.0" fill="#161b22"><title>0 on Mar 25, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.354s" points="367.0,188.0 377.0,188.0 384.0,183.0 374.0,183.0" fill="#161b22"><title>0 on Apr 01, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.366s" points="379.0,188.0 389.0,188.0 396.0,183.0 386.0,183.0" fill="#161b22"><title>0 on Apr 08, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.378s" points="391.0,188.0 401.0,188.0 408.0,183.0 398.0,183.0" fill="#161b22"><title>0 on Apr 15, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.390s" points="403.0,188.0 413.0,188.0 420.0,183.0 410.0,183.0" fill="#161b22"><title>0 on Apr 22, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.402s" points="415.0,188.0 425.0,188.0 432.0,183.0 422.0,183.0" fill="#161b22"><title>0 on Apr 29, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.414s" points="427.0,188.0 437.0,188.0 444.0,183.0 434.0,183.0" fill="#161b22"><title>0 on May 06, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.426s" points="439.0,188.0 449.0,188.0 456.0,183.0 446.0,183.0" fill="#161b22"><title>0 on May 13, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.438s" points="451.0,188.0 461.0,188.0 468.0,183.0 458.0,183.0" fill="#161b22"><title>0 on May 20, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.450s" points="463.0,188.0 473.0,188.0 480.0,183.0 470.0,183.0" fill="#161b22"><title>0 on May 27, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.462s" points="475.0,188.0 485.0,188.0 492.0,183.0 482.0,183.0" fill="#161b22"><title>0 on Jun 03, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.474s" points="487.0,188.0 497.0,188.0 504.0,183.0 494.0,183.0" fill="#161b22"><title>0 on Jun 10, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.486s" points="499.0,188.0 509.0,188.0 516.0,183.0 506.0,183.0" fill="#161b22"><title>0 on Jun 17, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.498s" points="511.0,188.0 521.0,188.0 528.0,183.0 518.0,183.0" fill="#161b22"><title>0 on Jun 24, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.510s" points="523.0,188.0 533.0,188.0 540.0,183.0 530.0,183.0" fill="#161b22"><title>0 on Jul 01, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.522s" points="535.0,188.0 545.0,188.0 552.0,183.0 542.0,183.0" fill="#161b22"><title>0 on Jul 08, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.534s" points="547.0,188.0 557.0,188.0 564.0,183.0 554.0,183.0" fill="#161b22"><title>0 on Jul 15, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.546s" points="559.0,188.0 569.0,188.0 576.0,183.0 566.0,183.0" fill="#161b22"><title>0 on Jul 22, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.558s" points="571.0,188.0 581.0,188.0 588.0,183.0 578.0,183.0" fill="#161b22"><title>0 on Jul 29, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.570s" points="583.0,188.0 593.0,188.0 600.0,183.0 590.0,183.0" fill="#161b22"><title>0 on Aug 05, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.582s" points="595.0,188.0 605.0,188.0 612.0,183.0 602.0,183.0" fill="#161b22"><title>0 on Aug 12, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.594s" points="607.0,188.0 617.0,188.0 624.0,183.0 614.0,183.0" fill="#161b22"><title>0 on Aug 19, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.606s" points="619.0,188.0 629.0,188.0 636.0,183.0 626.0,183.0" fill="#161b22"><title>0 on Aug 26, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.618s" points="631.0,188.0 641.0,188.0 648.0,183.0 638.0,183.0" fill="#161b22"><title>0 on Sep 02, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.630s" points="643.0,188.0 653.0,188.0 660.0,183.0 650.0,183.0" fill="#161b22"><title>0 on Sep 09, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.642s" points="655.0,188.0 665.0,188.0 672.0,183.0 662.0,183.0" fill="#161b22"><title>0 on Sep 16, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.654s" points="667.0,188.0 677.0,188.0 684.0,183.0 674.0,183.0" fill="#161b22"><title>0 on Sep 23, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.666s" points="679.0,188.0 689.0,188.0 696.0,183.0 686.0,183.0" fill="#161b22"><title>0 on Sep 30, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.678s" points="691.0,188.0 701.0,188.0 708.0,183.0 698.0,183.0" fill="#161b22"><title>0 on Oct 07, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.690s" points="703.0,188.0 713.0,188.0 720.0,183.0 710.0,183.0" fill="#161b22"><title>0 on Oct 14, 2026</title></polygon>
+<g class="b" style="animation-delay:1.170s"><title>7 on Oct 21, 2026</title><rect x="715" y="127.3" width="10" height="60.7" fill="#26a641"/><polygon points="725.0,188.0 732.0,183.0 732.0,122.3 725.0,127.3" fill="#176427"/><polygon points="715.0,127.3 725.0,127.3 732.0,122.3 722.0,122.3" fill="#67c17a"/></g>
+<polygon class="f" style="animation-delay:0.060s" points="94.0,194.0 104.0,194.0 111.0,189.0 101.0,189.0" fill="#161b22"><title>0 on Oct 30, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.072s" points="106.0,194.0 116.0,194.0 123.0,189.0 113.0,189.0" fill="#161b22"><title>0 on Nov 06, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.084s" points="118.0,194.0 128.0,194.0 135.0,189.0 125.0,189.0" fill="#161b22"><title>0 on Nov 13, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.096s" points="130.0,194.0 140.0,194.0 147.0,189.0 137.0,189.0" fill="#161b22"><title>0 on Nov 20, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.108s" points="142.0,194.0 152.0,194.0 159.0,189.0 149.0,189.0" fill="#161b22"><title>0 on Nov 27, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.120s" points="154.0,194.0 164.0,194.0 171.0,189.0 161.0,189.0" fill="#161b22"><title>0 on Dec 04, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.132s" points="166.0,194.0 176.0,194.0 183.0,189.0 173.0,189.0" fill="#161b22"><title>0 on Dec 11, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.144s" points="178.0,194.0 188.0,194.0 195.0,189.0 185.0,189.0" fill="#161b22"><title>0 on Dec 18, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.156s" points="190.0,194.0 200.0,194.0 207.0,189.0 197.0,189.0" fill="#161b22"><title>0 on Dec 25, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.168s" points="202.0,194.0 212.0,194.0 219.0,189.0 209.0,189.0" fill="#161b22"><title>0 on Jan 01, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.180s" points="214.0,194.0 224.0,194.0 231.0,189.0 221.0,189.0" fill="#161b22"><title>0 on Jan 08, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.192s" points="226.0,194.0 236.0,194.0 243.0,189.0 233.0,189.0" fill="#161b22"><title>0 on Jan 15, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.204s" points="238.0,194.0 248.0,194.0 255.0,189.0 245.0,189.0" fill="#161b22"><title>0 on Jan 22, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.216s" points="250.0,194.0 260.0,194.0 267.0,189.0 257.0,189.0" fill="#161b22"><title>0 on Jan 29, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.228s" points="262.0,194.0 272.0,194.0 279.0,189.0 269.0,189.0" fill="#161b22"><title>0 on Feb 05, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.240s" points="274.0,194.0 284.0,194.0 291.0,189.0 281.0,189.0" fill="#161b22"><title>0 on Feb 12, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.252s" points="286.0,194.0 296.0,194.0 303.0,189.0 293.0,189.0" fill="#161b22"><title>0 on Feb 19, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.264s" points="298.0,194.0 308.0,194.0 315.0,189.0 305.0,189.0" fill="#161b22"><title>0 on Feb 26, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.276s" points="310.0,194.0 320.0,194.0 327.0,189.0 317.0,189.0" fill="#161b22"><title>0 on Mar 05, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.288s" points="322.0,194.0 332.0,194.0 339.0,189.0 329.0,189.0" fill="#161b22"><title>0 on Mar 12, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.300s" points="334.0,194.0 344.0,194.0 351.0,189.0 341.0,189.0" fill="#161b22"><title>0 on Mar 19, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.312s" points="346.0,194.0 356.0,194.0 363.0,189.0 353.0,189.0" fill="#161b22"><title>0 on Mar 26, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.324s" points="358.0,194.0 368.0,194.0 375.0,189.0 365.0,189.0" fill="#161b22"><title>0 on Apr 02, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.336s" points="370.0,194.0 380.0,194.0 387.0,189.0 377.0,189.0" fill="#161b22"><title>0 on Apr 09, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.348s" points="382.0,194.0 392.0,194.0 399.0,189.0 389.0,189.0" fill="#161b22"><title>0 on Apr 16, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.360s" points="394.0,194.0 404.0,194.0 411.0,189.0 401.0,189.0" fill="#161b22"><title>0 on Apr 23, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.372s" points="406.0,194.0 416.0,194.0 423.0,189.0 413.0,189.0" fill="#161b22"><title>0 on Apr 30, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.384s" points="418.0,194.0 428.0,194.0 435.0,189.0 425.0,189.0" fill="#161b22"><title>0 on May 07, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.396s" points="430.0,194.0 440.0,194.0 447.0,189.0 437.0,189.0" fill="#161b22"><title>0 on May 14, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.408s" points="442.0,194.0 452.0,194.0 459.0,189.0 449.0,189.0" fill="#161b22"><title>0 on May 21, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.420s" points="454.0,194.0 464.0,194.0 471.0,189.0 461.0,189.0" fill="#161b22"><title>0 on May 28, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.432s" points="466.0,194.0 476.0,194.0 483.0,189.0 473.0,189.0" fill="#161b22"><title>0 on Jun 04, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.444s" points="478.0,194.0 488.0,194.0 495.0,189.0 485.0,189.0" fill="#161b22"><title>0 on Jun 11, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.456s" points="490.0,194.0 500.0,194.0 507.0,189.0 497.0,189.0" fill="#161b22"><title>0 on Jun 18, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.468s" points="502.0,194.0 512.0,194.0 519.0,189.0 509.0,189.0" fill="#161b22"><title>0 on Jun 25, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.480s" points="514.0,194.0 524.0,194.0 531.0,189.0 521.0,189.0" fill="#161b22"><title>0 on Jul 02, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.492s" points="526.0,194.0 536.0,194.0 543.0,189.0 533.0,189.0" fill="#161b22"><title>0 on Jul 09, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.504s" points="538.0,194.0 548.0,194.0 555.0,189.0 545.0,189.0" fill="#161b22"><title>0 on Jul 16, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.516s" points="550.0,194.0 560.0,194.0 567.0,189.0 557.0,189.0" fill="#161b22"><title>0 on Jul 23, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.528s" points="562.0,194.0 572.0,194.0 579.0,189.0 569.0,189.0" fill="#161b22"><title>0 on Jul 30, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.540s" points="574.0,194.0 584.0,194.0 591.0,189.0 581.0,189.0" fill="#161b22"><title>0 on Aug 06, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.552s" points="586.0,194.0 596.0,194.0 603.0,189.0 593.0,189.0" fill="#161b22"><title>0 on Aug 13, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.564s" points="598.0,194.0 608.0,194.0 615.0,189.0 605.0,189.0" fill="#161b22"><title>0 on Aug 20, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.576s" points="610.0,194.0 620.0,194.0 627.0,189.0 617.0,189.0" fill="#161b22"><title>0 on Aug 27, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.588s" points="622.0,194.0 632.0,194.0 639.0,189.0 629.0,189.0" fill="#161b22"><title>0 on Sep 03, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.600s" points="634.0,194.0 644.0,194.0 651.0,189.0 641.0,189.0" fill="#161b22"><title>0 on Sep 10, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.612s" points="646.0,194.0 656.0,194.0 663.0,189.0 653.0,189.0" fill="#161b22"><title>0 on Sep 17, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.624s" points="658.0,194.0 668.0,194.0 675.0,189.0 665.0,189.0" fill="#161b22"><title>0 on Sep 24, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.636s" points="670.0,194.0 680.0,194.0 687.0,189.0 677.0,189.0" fill="#161b22"><title>0 on Oct 01, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.648s" points="682.0,194.0 692.0,194.0 699.0,189.0 689.0,189.0" fill="#161b22"><title>0 on Oct 08, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.660s" points="694.0,194.0 704.0,194.0 711.0,189.0 701.0,189.0" fill="#161b22"><title>0 on Oct 15, 2026</title></polygon>
+<g class="b" style="animation-delay:1.120s"><title>12 on Oct 22, 2026</title><rect x="706" y="114.5" width="10" height="79.5" fill="#39d353"/><polygon points="716.0,194.0 723.0,189.0 723.0,109.5 716.0,114.5" fill="#227f32"/><polygon points="706.0,114.5 716.0,114.5 723.0,109.5 713.0,109.5" fill="#74e087"/></g>
+<polygon class="f" style="animation-delay:0.030s" points="85.0,200.0 95.0,200.0 102.0,195.0 92.0,195.0" fill="#161b22"><title>0 on Oct 31, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.042s" points="97.0,200.0 107.0,200.0 114.0,195.0 104.0,195.0" fill="#161b22"><title>0 on Nov 07, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.054s" points="109.0,200.0 119.0,200.0 126.0,195.0 116.0,195.0" fill="#161b22"><title>0 on Nov 14, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.066s" points="121.0,200.0 131.0,200.0 138.0,195.0 128.0,195.0" fill="#161b22"><title>0 on Nov 21, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.078s" points="133.0,200.0 143.0,200.0 150.0,195.0 140.0,195.0" fill="#161b22"><title>0 on Nov 28, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.090s" points="145.0,200.0 155.0,200.0 162.0,195.0 152.0,195.0" fill="#161b22"><title>0 on Dec 05, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.102s" points="157.0,200.0 167.0,200.0 174.0,195.0 164.0,195.0" fill="#161b22"><title>0 on Dec 12, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.114s" points="169.0,200.0 179.0,200.0 186.0,195.0 176.0,195.0" fill="#161b22"><title>0 on Dec 19, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.126s" points="181.0,200.0 191.0,200.0 198.0,195.0 188.0,195.0" fill="#161b22"><title>0 on Dec 26, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.138s" points="193.0,200.0 203.0,200.0 210.0,195.0 200.0,195.0" fill="#161b22"><title>0 on Jan 02, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.150s" points="205.0,200.0 215.0,200.0 222.0,195.0 212.0,195.0" fill="#161b22"><title>0 on Jan 09, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.162s" points="217.0,200.0 227.0,200.0 234.0,195.0 224.0,195.0" fill="#161b22"><title>0 on Jan 16, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.174s" points="229.0,200.0 239.0,200.0 246.0,195.0 236.0,195.0" fill="#161b22"><title>0 on Jan 23, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.186s" points="241.0,200.0 251.0,200.0 258.0,195.0 248.0,195.0" fill="#161b22"><title>0 on Jan 30, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.198s" points="253.0,200.0 263.0,200.0 270.0,195.0 260.0,195.0" fill="#161b22"><title>0 on Feb 06, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.210s" points="265.0,200.0 275.0,200.0 282.0,195.0 272.0,195.0" fill="#161b22"><title>0 on Feb 13, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.222s" points="277.0,200.0 287.0,200.0 294.0,195.0 284.0,195.0" fill="#161b22"><title>0 on Feb 20, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.234s" points="289.0,200.0 299.0,200.0 306.0,195.0 296.0,195.0" fill="#161b22"><title>0 on Feb 27, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.246s" points="301.0,200.0 311.0,200.0 318.0,195.0 308.0,195.0" fill="#161b22"><title>0 on Mar 06, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.258s" points="313.0,200.0 323.0,200.0 330.0,195.0 320.0,195.0" fill="#161b22"><title>0 on Mar 13, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.270s" points="325.0,200.0 335.0,200.0 342.0,195.0 332.0,195.0" fill="#161b22"><title>0 on Mar 20, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.282s" points="337.0,200.0 347.0,200.0 354.0,195.0 344.0,195.0" fill="#161b22"><title>0 on Mar 27, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.294s" points="349.0,200.0 359.0,200.0 366.0,195.0 356.0,195.0" fill="#161b22"><title>0 on Apr 03, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.306s" points="361.0,200.0 371.0,200.0 378.0,195.0 368.0,195.0" fill="#161b22"><title>0 on Apr 10, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.318s" points="373.0,200.0 383.0,200.0 390.0,195.0 380.0,195.0" fill="#161b22"><title>0 on Apr 17, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.330s" points="385.0,200.0 395.0,200.0 402.0,195.0 392.0,195.0" fill="#161b22"><title>0 on Apr 24, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.342s" points="397.0,200.0 407.0,200.0 414.0,195.0 404.0,195.0" fill="#161b22"><title>0 on May 01, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.354s" points="409.0,200.0 419.0,200.0 426.0,195.0 416.0,195.0" fill="#161b22"><title>0 on May 08, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.366s" points="421.0,200.0 431.0,200.0 438.0,195.0 428.0,195.0" fill="#161b22"><title>0 on May 15, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.378s" points="433.0,200.0 443.0,200.0 450.0,195.0 440.0,195.0" fill="#161b22"><title>0 on May 22, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.390s" points="445.0,200.0 455.0,200.0 462.0,195.0 452.0,195.0" fill="#161b22"><title>0 on May 29, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.402s" points="457.0,200.0 467.0,200.0 474.0,195.0 464.0,195.0" fill="#161b22"><title>0 on Jun 05, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.414s" points="469.0,200.0 479.0,200.0 486.0,195.0 476.0,195.0" fill="#161b22"><title>0 on Jun 12, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.426s" points="481.0,200.0 491.0,200.0 498.0,195.0 488.0,195.0" fill="#161b22"><title>0 on Jun 19, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.438s" points="493.0,200.0 503.0,200.0 510.0,195.0 500.0,195.0" fill="#161b22"><title>0 on Jun 26, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.450s" points="505.0,200.0 515.0,200.0 522.0,195.0 512.0,195.0" fill="#161b22"><title>0 on Jul 03, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.462s" points="517.0,200.0 527.0,200.0 534.0,195.0 524.0,195.0" fill="#161b22"><title>0 on Jul 10, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.474s" points="529.0,200.0 539.0,200.0 546.0,195.0 536.0,195.0" fill="#161b22"><title>0 on Jul 17, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.486s" points="541.0,200.0 551.0,200.0 558.0,195.0 548.0,195.0" fill="#161b22"><title>0 on Jul 24, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.498s" points="553.0,200.0 563.0,200.0 570.0,195.0 560.0,195.0" fill="#161b22"><title>0 on Jul 31, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.510s" points="565.0,200.0 575.0,200.0 582.0,195.0 572.0,195.0" fill="#161b22"><title>0 on Aug 07, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.522s" points="577.0,200.0 587.0,200.0 594.0,195.0 584.0,195.0" fill="#161b22"><title>0 on Aug 14, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.534s" points="589.0,200.0 599.0,200.0 606.0,195.0 596.0,195.0" fill="#161b22"><title>0 on Aug 21, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.546s" points="601.0,200.0 611.0,200.0 618.0,195.0 608.0,195.0" fill="#161b22"><title>0 on Aug 28, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.558s" points="613.0,200.0 623.0,200.0 630.0,195.0 620.0,195.0" fill="#161b22"><title>0 on Sep 04, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.570s" points="625.0,200.0 635.0,200.0 642.0,195.0 632.0,195.0" fill="#161b22"><title>0 on Sep 11, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.582s" points="637.0,200.0 647.0,200.0 654.0,195.0 644.0,195.0" fill="#161b22"><title>0 on Sep 18, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.594s" points="649.0,200.0 659.0,200.0 666.0,195.0 656.0,195.0" fill="#161b22"><title>0 on Sep 25, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.606s" points="661.0,200.0 671.0,200.0 678.0,195.0 668.0,195.0" fill="#161b22"><title>0 on Oct 02, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.618s" points="673.0,200.0 683.0,200.0 690.0,195.0 680.0,195.0" fill="#161b22"><title>0 on Oct 09, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.630s" points="685.0,200.0 695.0,200.0 702.0,195.0 692.0,195.0" fill="#161b22"><title>0 on Oct 16, 2026</title></polygon>
+<g class="b" style="animation-delay:1.070s"><title>2 on Oct 23, 2026</title><rect x="697" y="167.6" width="10" height="32.4" fill="#0e4429"/><polygon points="707.0,200.0 714.0,195.0 714.0,162.6 707.0,167.6" fill="#082919"/><polygon points="697.0,167.6 707.0,167.6 714.0,162.6 704.0,162.6" fill="#567c69"/></g>
+<polygon class="f" style="animation-delay:0.000s" points="76.0,206.0 86.0,206.0 93.0,201.0 83.0,201.0" fill="#161b22"><title>0 on Nov 01, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.012s" points="88.0,206.0 98.0,206.0 105.0,201.0 95.0,201.0" fill="#161b22"><title>0 on Nov 08, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.024s" points="100.0,206.0 110.0,206.0 117.0,201.0 107.0,201.0" fill="#161b22"><title>0 on Nov 15, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.036s" points="112.0,206.0 122.0,206.0 129.0,201.0 119.0,201.0" fill="#161b22"><title>0 on Nov 22, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.048s" points="124.0,206.0 134.0,206.0 141.0,201.0 131.0,201.0" fill="#161b22"><title>0 on Nov 29, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.060s" points="136.0,206.0 146.0,206.0 153.0,201.0 143.0,201.0" fill="#161b22"><title>0 on Dec 06, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.072s" points="148.0,206.0 158.0,206.0 165.0,201.0 155.0,201.0" fill="#161b22"><title>0 on Dec 13, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.084s" points="160.0,206.0 170.0,206.0 177.0,201.0 167.0,201.0" fill="#161b22"><title>0 on Dec 20, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.096s" points="172.0,206.0 182.0,206.0 189.0,201.0 179.0,201.0" fill="#161b22"><title>0 on Dec 27, 2025</title></polygon>
+<polygon class="f" style="animation-delay:0.108s" points="184.0,206.0 194.0,206.0 201.0,201.0 191.0,201.0" fill="#161b22"><title>0 on Jan 03, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.120s" points="196.0,206.0 206.0,206.0 213.0,201.0 203.0,201.0" fill="#161b22"><title>0 on Jan 10, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.132s" points="208.0,206.0 218.0,206.0 225.0,201.0 215.0,201.0" fill="#161b22"><title>0 on Jan 17, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.144s" points="220.0,206.0 230.0,206.0 237.0,201.0 227.0,201.0" fill="#161b22"><title>0 on Jan 24, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.156s" points="232.0,206.0 242.0,206.0 249.0,201.0 239.0,201.0" fill="#161b22"><title>0 on Jan 31, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.168s" points="244.0,206.0 254.0,206.0 261.0,201.0 251.0,201.0" fill="#161b22"><title>0 on Feb 07, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.180s" points="256.0,206.0 266.0,206.0 273.0,201.0 263.0,201.0" fill="#161b22"><title>0 on Feb 14, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.192s" points="268.0,206.0 278.0,206.0 285.0,201.0 275.0,201.0" fill="#161b22"><title>0 on Feb 21, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.204s" points="280.0,206.0 290.0,206.0 297.0,201.0 287.0,201.0" fill="#161b22"><title>0 on Feb 28, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.216s" points="292.0,206.0 302.0,206.0 309.0,201.0 299.0,201.0" fill="#161b22"><title>0 on Mar 07, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.228s" points="304.0,206.0 314.0,206.0 321.0,201.0 311.0,201.0" fill="#161b22"><title>0 on Mar 14, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.240s" points="316.0,206.0 326.0,206.0 333.0,201.0 323.0,201.0" fill="#161b22"><title>0 on Mar 21, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.252s" points="328.0,206.0 338.0,206.0 345.0,201.0 335.0,201.0" fill="#161b22"><title>0 on Mar 28, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.264s" points="340.0,206.0 350.0,206.0 357.0,201.0 347.0,201.0" fill="#161b22"><title>0 on Apr 04, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.276s" points="352.0,206.0 362.0,206.0 369.0,201.0 359.0,201.0" fill="#161b22"><title>0 on Apr 11, 2026</title></polygon>
+<g class="b" style="animation-delay:0.480s"><title>1 on Apr 18, 2026</title><rect x="364" y="183.1" width="10" height="22.9" fill="#0e4429"/><polygon points="374.0,206.0 381.0,201.0 381.0,178.1 374.0,183.1" fill="#082919"/><polygon points="364.0,183.1 374.0,183.1 381.0,178.1 371.0,178.1" fill="#567c69"/></g>
+<polygon class="f" style="animation-delay:0.300s" points="376.0,206.0 386.0,206.0 393.0,201.0 383.0,201.0" fill="#161b22"><title>0 on Apr 25, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.312s" points="388.0,206.0 398.0,206.0 405.0,201.0 395.0,201.0" fill="#161b22"><title>0 on May 02, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.324s" points="400.0,206.0 410.0,206.0 417.0,201.0 407.0,201.0" fill="#161b22"><title>0 on May 09, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.336s" points="412.0,206.0 422.0,206.0 429.0,201.0 419.0,201.0" fill="#161b22"><title>0 on May 16, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.348s" points="424.0,206.0 434.0,206.0 441.0,201.0 431.0,201.0" fill="#161b22"><title>0 on May 23, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.360s" points="436.0,206.0 446.0,206.0 453.0,201.0 443.0,201.0" fill="#161b22"><title>0 on May 30, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.372s" points="448.0,206.0 458.0,206.0 465.0,201.0 455.0,201.0" fill="#161b22"><title>0 on Jun 06, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.384s" points="460.0,206.0 470.0,206.0 477.0,201.0 467.0,201.0" fill="#161b22"><title>0 on Jun 13, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.396s" points="472.0,206.0 482.0,206.0 489.0,201.0 479.0,201.0" fill="#161b22"><title>0 on Jun 20, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.408s" points="484.0,206.0 494.0,206.0 501.0,201.0 491.0,201.0" fill="#161b22"><title>0 on Jun 27, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.420s" points="496.0,206.0 506.0,206.0 513.0,201.0 503.0,201.0" fill="#161b22"><title>0 on Jul 04, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.432s" points="508.0,206.0 518.0,206.0 525.0,201.0 515.0,201.0" fill="#161b22"><title>0 on Jul 11, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.444s" points="520.0,206.0 530.0,206.0 537.0,201.0 527.0,201.0" fill="#161b22"><title>0 on Jul 18, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.456s" points="532.0,206.0 542.0,206.0 549.0,201.0 539.0,201.0" fill="#161b22"><title>0 on Jul 25, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.468s" points="544.0,206.0 554.0,206.0 561.0,201.0 551.0,201.0" fill="#161b22"><title>0 on Aug 01, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.480s" points="556.0,206.0 566.0,206.0 573.0,201.0 563.0,201.0" fill="#161b22"><title>0 on Aug 08, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.492s" points="568.0,206.0 578.0,206.0 585.0,201.0 575.0,201.0" fill="#161b22"><title>0 on Aug 15, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.504s" points="580.0,206.0 590.0,206.0 597.0,201.0 587.0,201.0" fill="#161b22"><title>0 on Aug 22, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.516s" points="592.0,206.0 602.0,206.0 609.0,201.0 599.0,201.0" fill="#161b22"><title>0 on Aug 29, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.528s" points="604.0,206.0 614.0,206.0 621.0,201.0 611.0,201.0" fill="#161b22"><title>0 on Sep 05, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.540s" points="616.0,206.0 626.0,206.0 633.0,201.0 623.0,201.0" fill="#161b22"><title>0 on Sep 12, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.552s" points="628.0,206.0 638.0,206.0 645.0,201.0 635.0,201.0" fill="#161b22"><title>0 on Sep 19, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.564s" points="640.0,206.0 650.0,206.0 657.0,201.0 647.0,201.0" fill="#161b22"><title>0 on Sep 26, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.576s" points="652.0,206.0 662.0,206.0 669.0,201.0 659.0,201.0" fill="#161b22"><title>0 on Oct 03, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.588s" points="664.0,206.0 674.0,206.0 681.0,201.0 671.0,201.0" fill="#161b22"><title>0 on Oct 10, 2026</title></polygon>
+<polygon class="f" style="animation-delay:0.600s" points="676.0,206.0 686.0,206.0 693.0,201.0 683.0,201.0" fill="#161b22"><title>0 on Oct 17, 2026</title></polygon>
+<g class="b" style="animation-delay:1.020s"><title>3 on Oct 24, 2026</title><rect x="688" y="166.3" width="10" height="39.7" fill="#0e4429"/><polygon points="698.0,206.0 705.0,201.0 705.0,161.3 698.0,166.3" fill="#082919"/><polygon points="688.0,166.3 698.0,166.3 705.0,161.3 695.0,161.3" fill="#567c69"/></g>
+<g class="l" style="animation-delay:2.26s"><line x1="741.5" y1="69.5" x2="741.5" y2="48" stroke="#8b949e" stroke-dasharray="2 2"/><text x="741.5" y="42" text-anchor="end" class="t">best day · 19 (Oct 19)</text></g>
+<text x="76" y="250" class="t">57 contributions in the last year · current streak 2d · longest 6d · best day 19 (Oct 19)</text>
+<text x="671" y="272" class="t">Less</text>
+<rect x="705" y="262" width="12" height="12" rx="3" fill="#161b22"/>
+<rect x="720" y="262" width="12" height="12" rx="3" fill="#0e4429"/>
+<rect x="735" y="262" width="12" height="12" rx="3" fill="#006d32"/>
+<rect x="750" y="262" width="12" height="12" rx="3" fill="#26a641"/>
+<rect x="765" y="262" width="12" height="12" rx="3" fill="#39d353"/>
+<text x="786" y="272" class="t">More</text>
 </svg>
